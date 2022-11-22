@@ -14,28 +14,28 @@ function Navigation() {
           <Nav className="me-auto">
             <Nav.Link href="/home">Home</Nav.Link>
             <NavDropdown title="Services" id="basic-nav-dropdown">
-              <NavDropdown.Item href="services/craniosacral_therapy">
+              <NavDropdown.Item href="/services/craniosacral_therapy">
                 Craniosacral Therapy
               </NavDropdown.Item>
-              <NavDropdown.Item href="#services/somato_emotional_release">
+              <NavDropdown.Item href="/services/somato_emotional_release">
                 Somato Emotional Release
               </NavDropdown.Item>
-              <NavDropdown.Item href="#services/life_coaching">
+              <NavDropdown.Item href="/services/life_coaching">
                 Life Coaching
               </NavDropdown.Item>
-              <NavDropdown.Item href="#services/nutritional_therap">
+              <NavDropdown.Item href="/services/nutritional_therapy">
                 Nutritional Therapy
               </NavDropdown.Item>
-              <NavDropdown.Item href="#services/meditation">
+              <NavDropdown.Item href="/services/meditation">
                 Meditation
               </NavDropdown.Item>
-              <NavDropdown.Item href="#services/reiki_seichem">
+              <NavDropdown.Item href="/services/reiki_seichem">
                 Reiki and Seichem
               </NavDropdown.Item>
-              <NavDropdown.Item href="#services/massage_therapy">
+              <NavDropdown.Item href="/services/massage_therapy">
                 Massage Therapy
               </NavDropdown.Item>
-              <NavDropdown.Item href="#services/indian_head_massage">
+              <NavDropdown.Item href="/services/indian_head_massage">
                 Indian Head Massage
               </NavDropdown.Item>
             </NavDropdown>
