@@ -1,0 +1,13 @@
+.carousel {
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.backing {
+    background-color: black;
+}
+
+.treatment-carousel-item {
+    font-size: 10px !important;
+}
