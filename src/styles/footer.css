@@ -9,7 +9,7 @@
   background-color: rgba(149, 169, 36, 1);
   align-items: center;
   justify-items: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .logos {
@@ -19,4 +19,9 @@
 
 .footer-text {
   font-size: 18px;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
 }

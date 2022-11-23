@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/about.css";
 import strengthLogo from "../assets/strengthLogo.png";
+import jacky from "../assets/jacky.jpg";
 import FHT from "../assets/FHT-Logo.png"
 
 const About = () => {
@@ -9,6 +10,7 @@ const About = () => {
       <img className="main-logo-about" src={strengthLogo} />
       <section className="about-section">
         <h3 className="main-heading-about">About Me</h3>
+        <img className="jacky-image" src={jacky} />
         <p className="about-text">
           I’m Jacky Burrows and I’m a holistic practitioner providing various
           methods of support for your daily health and wellness.

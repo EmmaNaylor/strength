@@ -8,11 +8,24 @@ const Footer = () => {
   return (
     <div className="footer-bar">
       <img className="logos" src={phone} />
+
       <span className="footer-text">0785 8761 633</span>
-      <img className="logos" src={email} />
-      <span className="footer-text">astrengthinyou@gmail.com</span>
-      <img className="logos" src={facebook} style={{ width: "50px", height: "50px" }} />
-      <span className="footer-text">www.facebook.com/astrengthinyou</span>
+      <a href="mailto:astrengthinyou@gmail.com">
+        <img className="logos" src={email} />
+      </a>
+      <a href="mailto:astrengthinyou@gmail.com">
+        <span className="footer-text">astrengthinyou@gmail.com</span>
+      </a>
+      <a href="https://www.facebook.com/astrengthinyou" target="_blank">
+        <img
+          className="logos"
+          src={facebook}
+          style={{ width: "50px", height: "50px" }}
+        />
+      </a>
+      <a href="https://www.facebook.com/astrengthinyou" target="_blank">
+        <span className="footer-text">www.facebook.com/astrengthinyou</span>
+      </a>
     </div>
   );
 };

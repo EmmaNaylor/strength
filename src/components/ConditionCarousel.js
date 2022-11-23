@@ -1,6 +1,6 @@
 import Carousel from "react-bootstrap/Carousel";
 import meditation from "../assets/meditation.jpg";
-import cranio from "../assets/cranio-2.jpg";
+import cranio from "../assets/cranio_2.jpg";
 import massage from "../assets/massage.jpg";
 import indian from "../assets/indian.jpg";
 import lifecoach from "../assets/lifecoach.jpg";
