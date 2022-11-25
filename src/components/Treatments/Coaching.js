@@ -6,6 +6,14 @@ import coach2 from "../../assets/lifecoach-2.jpg";
 import beach from "../../assets/beach.jpg";
 import Button from "react-bootstrap/Button";
 import "../../styles/treatments.css";
+import styled from "styled-components";
+
+const DesktopWrapper = styled.div`
+  display: none;
+  @media screen and (min-width: 960px) {
+    display: block;
+  }
+`;
 
 const Coaching = () => {
   const navigate = useNavigate();
@@ -31,6 +39,7 @@ const Coaching = () => {
       </section>
       <img className="treatment-image" src={coach} />
       <img className="treatment-image" src={coach2} />
+      <DesktopWrapper><img className="treatment-image" src={coach} /></DesktopWrapper>
       <section className="treatment-section">
         <h3 className="treatment-heading">Why you might use a Life Coach</h3>
         <div className="treatment-grid">

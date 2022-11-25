@@ -2,6 +2,7 @@
   width: 80%;
   margin: auto;
   font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 
 .review-heading {
@@ -9,6 +10,7 @@
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: center;
+  color: #036c7b;
 }
 
 .review {
@@ -24,10 +26,23 @@
 
 .reviewer {
   font-weight: bold;
-  color: rgba(149, 169, 36, 1);
+  color: #036c7b;
   margin-bottom: 0;
 }
 
 .title {
-  font-weight: bold;
+  width: 60%;
+  font-size: 15px;
+  margin: auto;
+}
+
+@media screen and (min-device-width: 620px) {
+  .review-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-device-width: 960px) {
+}
+@media only screen and (min-device-width: 1200px) {
 }

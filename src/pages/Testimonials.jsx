@@ -33,7 +33,8 @@ const Testimonials = () => {
           Darlington and I can’t recommend her highly enough!
         </p>
         <p className="reviewer">Debbie Stokoe</p>
-        <p className="title">Entrepeneur, Butterfly Communications</p>
+        <p className="title">Entrepeneur</p>
+        <p className="title">Butterfly Communications</p>
       </section>
       <section className="review">
         <p className="review-text">
@@ -46,7 +47,8 @@ const Testimonials = () => {
           definitey be booking another session soon. Highly recommended.
         </p>
         <p className="reviewer">Rosie Brient</p>
-        <p className="title">Owner, Rosiebrent.com</p>
+        <p className="title">Owner</p>
+        <p className="title">Rosiebrent.com</p>
       </section>
     </div>
   );

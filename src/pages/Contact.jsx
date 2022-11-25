@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import strengthLogo from "../assets/strengthLogo.png";
+import "../styles/contacts.css";
 
 const Contact = () => {
   const [name, setName] = useState();
@@ -18,7 +19,7 @@ const Contact = () => {
     <div style={{ width: "80%", margin: "auto" }}>
       <Form>
         <img className="main-logo-treatments" src={strengthLogo} />
-        <h3 className="treatment-heading">
+        <h3 className="contact-heading">
           Contact Jacky at A Strength In You
         </h3>
         <Form.Group className="mb-3" controlId="formBasicName">
@@ -59,19 +60,25 @@ const Contact = () => {
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicCheckbox">
-          <p>
-            I agree for A Strength in You to use this information to contact us
-            whilst processing the enquiry
-          </p>
-          <Form.Check required type="checkbox" label="Contact Consent" />
+          <p className="consent-heading">Contact Consent</p>
+          <Form.Check
+            required
+            type="checkbox"
+            label=" I agree for A Strength in You to use this information to contact me
+            whilst processing my enquiry"
+          />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicCheckbox">
-          <p>By submitting this form I agree to the Privacy Policy</p>
-          <Form.Check required type="checkbox" label="Privacy Policy" />
+          <p className="consent-heading">Privacy Policy</p>
+          <Form.Check
+            required
+            type="checkbox"
+            label="By submitting this form I agree to the Privacy Policy"
+          />
         </Form.Group>
-        <Button variant="primary" type="submit" onClick={contactJacky}>
+        <button className="contact-button" type="submit" onClick={contactJacky}>
           Submit
-        </Button>
+        </button>
       </Form>
     </div>
   );

@@ -8,7 +8,6 @@ const Footer = () => {
   return (
     <div className="footer-bar">
       <img className="logos" src={phone} />
-
       <span className="footer-text">0785 8761 633</span>
       <a href="mailto:astrengthinyou@gmail.com">
         <img className="logos" src={email} />
@@ -24,7 +23,11 @@ const Footer = () => {
         />
       </a>
       <a href="https://www.facebook.com/astrengthinyou" target="_blank">
-        <span className="footer-text">www.facebook.com/astrengthinyou</span>
+        <span
+          className="footer-text"
+        >
+          www.facebook.com/astrengthinyou
+        </span>
       </a>
     </div>
   );

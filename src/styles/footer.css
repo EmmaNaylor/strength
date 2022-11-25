@@ -2,11 +2,12 @@
   display: grid;
   grid-template-columns: 50px auto;
   grid-template-rows: 30px 30px 30px;
-  font-family: 'Roboto', sans-serif;
+  grid-auto-flow: row;
+  font-family: "Roboto", sans-serif;
   padding: 15px;
   width: 100%;
   height: auto;
-  background-color: rgba(149, 169, 36, 1);
+  background-color: #036c7b;
   align-items: center;
   justify-items: center;
   margin-top: 40px;
@@ -19,9 +20,24 @@
 
 .footer-text {
   font-size: 18px;
+  font-weight: bold;
 }
 
-a, a:hover, a:focus, a:active {
+a,
+a:hover,
+a:focus,
+a:active {
   text-decoration: none;
   color: inherit;
+}
+
+@media screen and (min-device-width: 620px) {
+  .footer-bar {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+@media only screen and (min-device-width: 960px) {
+}
+@media only screen and (min-device-width: 1200px) {
 }
