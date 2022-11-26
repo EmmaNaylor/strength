@@ -32,9 +32,7 @@ const Testimonials = () => {
           knowledge. She’s based at the Business Centre on Blackwell Lane in
           Darlington and I can’t recommend her highly enough!
         </p>
-        <p className="reviewer">Debbie Stokoe</p>
-        <p className="title">Entrepeneur</p>
-        <p className="title">Butterfly Communications</p>
+        <p className="reviewer">Debbie Stokoe (Entrepeneur - Butterfly Communications)</p>
       </section>
       <section className="review">
         <p className="review-text">
@@ -46,9 +44,7 @@ const Testimonials = () => {
           energies moving around my body, clearing blockages and I will
           definitey be booking another session soon. Highly recommended.
         </p>
-        <p className="reviewer">Rosie Brient</p>
-        <p className="title">Owner</p>
-        <p className="title">Rosiebrent.com</p>
+        <p className="reviewer">Rosie Brent (Owner - Rosiebrent.com)</p>
       </section>
     </div>
   );

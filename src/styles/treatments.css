@@ -33,7 +33,7 @@
 .treatment-heading {
   margin-bottom: 15px;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   color: #036c7b;
 }
 
@@ -43,22 +43,31 @@
   margin-top: 20px;
 }
 
-.treatment-image {
-  margin: auto;
-  margin-bottom: 20px;
+.small-image-container{
   height: 150px;
   width: 150px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.treatment-image {
+  height: 100%;
+  width: 100%;
+}
+
+.wide-image-container{
+  margin: auto;
+  height: 200px;
+  width: 100%;
   padding: 10px;
   display: inline-block;
 }
 
 .wide-treatment-image {
-  margin: auto;
-  margin-bottom: 20px;
-  height: 200px;
+  height: 100%;
   width: 100%;
-  padding: 10px;
-  display: inline-block;
 }
 
 .thin-wide-treatment-image {
@@ -78,7 +87,7 @@
 .treatment-list {
   text-align: left;
   padding: 0;
-  margin: 0;
+  margin: auto;
   list-style-type: none;
 }
 
@@ -93,45 +102,84 @@
   color: #036c7b;
 }
 
+.treatment-separator {
+  border-top: 3px solid #0cb5cf;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
 @media screen and (min-device-width: 620px) {
-  .treatment-image {
-    margin-bottom: 20px;
+  .treatment-grid {
+    width: 60%;
+    margin: auto;
+  }
+
+  .small-image-container{
     height: 250px;
     width: 250px;
     padding: 20px;
   }
-  
-  .wide-treatment-image {
+
+  .wide-image-container{
     height: 250px;
     width: 80%;
   }
 
   .treatment-list {
-    margin: 10%;
     margin-top: 20px;
   }
 
   .treatment-item {
     font-size: 18px;
   }
+
+  .book {
+    width: 20%;
+  }
 }
 @media only screen and (min-device-width: 960px) {
+
+  .treatment-grid {
+    width: 80%;
+    margin: auto;
+  }
+
   .treatment-list {
-    width: 50%;
+    width: 80%;
     justify-items: center;
   }
 
-  .treatment-image {
+  .small-image-container{
     margin-bottom: 20px;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     padding: 10px;
   }
-  
-  .wide-treatment-image {
-    height: 350px;
+
+  .wide-image-container{
+    height: 450px;
     width: 80%;
+  }
+
+  .treatment-section {
+    width: 80%;
+  }
+  .book {
+    width: 130px;
   }
 }
 @media only screen and (min-device-width: 1200px) {
+  .treatment-list {
+    width: 70%;
+  }
+
+  .treatment-grid {
+    width: 90%;
+    margin: auto;
+  }
+
+  .treatment-section {
+    width: 60%;
+  }
 }

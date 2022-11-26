@@ -31,7 +31,9 @@ const Meditation = () => {
         </p>
       </section>
       <section className="treatment-section">
-      <img className="wide-treatment-image" src={meditation} />
+        <div className="wide-image-container">
+          <img className="wide-treatment-image" src={meditation} />
+        </div>
         <h3 className="treatment-heading">What is Meditation?</h3>
         <p className="treatment-text">
           Meditation is a very personal experience and is many different things

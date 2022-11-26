@@ -3,8 +3,17 @@ import { useNavigate } from "react-router-dom";
 import strengthLogo from "../../assets/strengthLogo.png";
 import reiki1 from "../../assets/reiki-1.jpg";
 import reiki2 from "../../assets/reiki-2.jpg";
+import reiki3 from "../../assets/reiki-3.jpg";
 import Button from "react-bootstrap/Button";
 import "../../styles/treatments.css";
+import styled from "styled-components";
+
+const DesktopWrapper = styled.div`
+  display: none;
+  @media screen and (min-width: 960px) {
+    display: inline-block;
+  }
+`;
 
 const Reiki = () => {
   const navigate = useNavigate();
@@ -24,9 +33,18 @@ const Reiki = () => {
           water , which is then transferred to the client by visualisation and
           intent by gently placing their hands on, or just above the body .
         </p>
-        <img className="treatment-image" src={reiki1} />
-        <img className="treatment-image" src={reiki2} />
       </section>
+      <div className="small-image-container">
+        <img className="treatment-image" src={reiki1} />
+      </div>
+      <div className="small-image-container">
+        <img className="treatment-image" src={reiki2} />
+      </div>
+      <DesktopWrapper>
+        <div className="small-image-container">
+          <img className="treatment-image" src={reiki3} />
+        </div>
+      </DesktopWrapper>
       <section className="treatment-section">
         <h3 className="treatment-heading">What to Expect</h3>
         <p className="treatment-text">

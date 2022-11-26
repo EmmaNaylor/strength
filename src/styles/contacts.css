@@ -1,3 +1,8 @@
+.outer-form {
+  width: 80%;
+  margin: auto;
+}
+
 .contact-button {
   background-color: #32c1d6;
   margin: auto;
@@ -34,14 +39,51 @@
 
 @media screen and (min-device-width: 620px) {
   .form-label {
-    margin-top: 25px;
+    margin-top: 10px;
     margin-bottom: 10px;
   }
   .contact-button {
+    margin-top: 15px;
     width: 20%;
   }
 }
 @media only screen and (min-device-width: 960px) {
+  .outer-form {
+    width: 60%;
+    margin: auto;
+  }
+  .form-label {
+    font-size: 20px;
+  }
+  .form-check-label {
+    font-size: 18px;
+  }
+  .consent-heading {
+    font-size: 20px;
+  }
+
+  .form-control::placeholder {
+    font-size: 18px;
+  }
+
+  .contact-button {
+    margin-top: 20px;
+    width: 20%;
+    font-size: 18px;
+  }
 }
 @media only screen and (min-device-width: 1200px) {
+  .contact-heading {
+    font-size: 25px;
+  }
+
+  .form-control::placeholder {
+    font-size: 20px;
+  }
+
+  .contact-button {
+    margin-top: 20px;
+    width: 20%;
+    font-size: 20px;
+  }
 }

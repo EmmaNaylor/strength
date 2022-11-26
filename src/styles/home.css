@@ -1,5 +1,8 @@
+html, body {
+  width: 100% !important;
+}
 .outer-home {
-  width: 80%;
+  width: 85%;
   margin: auto;
   font-family: "Roboto", sans-serif;
 }
@@ -33,6 +36,23 @@
 @media screen and (min-device-width: 620px) {
 }
 @media only screen and (min-device-width: 960px) {
+  .welcome-text {
+   margin-bottom: 30px;
+  }
 }
 @media only screen and (min-device-width: 1200px) {
+  .welcome-text {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .main-heading {
+    margin-bottom: 25px;
+    font-size: 25px;
+  }
+
+  .welcome-section {
+    width: 65%;
+    margin: auto;
+  }
 }

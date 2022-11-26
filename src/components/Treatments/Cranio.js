@@ -26,8 +26,12 @@ const Cranio = () => {
           you have any other questions.
         </p>
       </section>
-      <img className="treatment-image" src={cranio3} />
-      <img className="treatment-image" src={cranio} />
+      <div className="small-image-container">
+        <img className="treatment-image" src={cranio3} />
+      </div>
+      <div className="small-image-container">
+        <img className="treatment-image" src={cranio} />
+      </div>
       <section className="treatment-section">
         <h3 className="treatment-heading">What is the Craniosacral System?</h3>
         <p className="treatment-text">

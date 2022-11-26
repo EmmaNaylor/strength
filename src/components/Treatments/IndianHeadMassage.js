@@ -20,7 +20,9 @@ const IndianHeadMassage = () => {
           clients like the use of oil and prefer to have their shoulders bare.
         </p>
       </section>
-      <img className="wide-treatment-image" src={indian} />
+      <div className="wide-image-container" style={{width: "70%"}}>
+        <img className="wide-treatment-image" src={indian} />
+      </div>
       <section className="treatment-section">
         <p className="treatment-text">
           It is a very relaxing head, neck, shoulder and facial massage with

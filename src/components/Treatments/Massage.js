@@ -25,8 +25,12 @@ const Massage = () => {
         </p>
       </section>
       <section className="treatment-section">
-        <img className="treatment-image" src={massage} />
-        <img className="treatment-image" src={massage2} />
+        <div className="small-image-container">
+          <img className="treatment-image" src={massage} />
+        </div>
+        <div className="small-image-container">
+          <img className="treatment-image" src={massage2} />
+        </div>
         <h3 className="treatment-heading">
           What to expect when having a massage
         </h3>
@@ -68,7 +72,11 @@ const Massage = () => {
           There is a growing body of evidence to suggest that massage can be
           effective in helping to treat certain chronic conditions, such as
           fibromyalgia and low back pain. This{" "}
-          <a className="proper-link" href="https://www.nice.org.uk/guidance/conditions-and-diseases/musculoskeletal-conditions/low-back-pain" target="_blank">
+          <a
+            className="proper-link"
+            href="https://www.nice.org.uk/guidance/conditions-and-diseases/musculoskeletal-conditions/low-back-pain"
+            target="_blank"
+          >
             guideline
           </a>{" "}
           produced in November 2016 by the National Institute for Health and

@@ -11,7 +11,7 @@ import styled from "styled-components";
 const DesktopWrapper = styled.div`
   display: none;
   @media screen and (min-width: 960px) {
-    display: block;
+    display: inline-block;
   }
 `;
 
@@ -37,9 +37,17 @@ const Coaching = () => {
           caring supportive and inspiring environment.
         </p>
       </section>
-      <img className="treatment-image" src={coach} />
-      <img className="treatment-image" src={coach2} />
-      <DesktopWrapper><img className="treatment-image" src={coach} /></DesktopWrapper>
+      <div className="small-image-container">
+        <img className="treatment-image" src={coach} />
+      </div>
+      <div className="small-image-container">
+        <img className="treatment-image" src={coach2} />
+      </div>
+      <DesktopWrapper>
+        <div className="small-image-container">
+          <img className="treatment-image" src={coach} />
+        </div>
+      </DesktopWrapper>
       <section className="treatment-section">
         <h3 className="treatment-heading">Why you might use a Life Coach</h3>
         <div className="treatment-grid">
@@ -57,7 +65,9 @@ const Coaching = () => {
           </ul>
         </div>
       </section>
-      <img className="wide-treatment-image" src={beach} />
+      <div className="wide-image-container">
+        <img className="wide-treatment-image" src={beach} />
+      </div>
       <div className="treatment-grid">
         <ul className="treatment-list">
           <li className="treatment-item">
@@ -76,41 +86,44 @@ const Coaching = () => {
           </li>
         </ul>
       </div>
-      <p className="treatment-text">
-        The individual (the client) and life coach have a creative partnership
-        that pursues to:
-      </p>
-      <p className="treatment-text">
-        Life coaching works in a specific structured format. The coach works
-        together with you to formulate a plan. You will ascertain your goals as
-        the basis for this. Once these steps have been taken you will
-        collaborate to identify barriers and limiting beliefs that may have been
-        obstructing you.
-      </p>
-      <p className="treatment-text">
-        The coach will discuss and set challenging but measureable and
-        achievable goals on a regular basis for you to work towards and attain
-        to enable your final goal to be accomplished.
-      </p>
-      <h3 className="treatment-heading">Health Coach</h3>
-      <p className="treatment-text">
-        A Health Coach supports people in gaining and using knowledge, skills,
-        tools and confidence to become active participants in their own care; to
-        enable them to reach their self-identified health and wellbeing goals,
-        using evidence based interventions to facilitate and maintain the plans
-        they have set out.
-      </p>
-      <p className="treatment-text">
-        Clients build new habits and make lasting changes.
-      </p>
-      <p className="treatment-text">
-        In the first conference (whether it be face to face, using zoom or over
-        the phone or by email) you will dictate how much interaction you want
-        and can alter this at any time. You may feel that face-to-face, or using
-        emails is best way of contact for you, or you may feel you need a
-        mixture of all methods, You are in control. I will facilitate the
-        changes you want to make.
-      </p>
+      <section className="treatment-section">
+        <p className="treatment-text">
+          The individual (the client) and life coach have a creative partnership
+          that pursues to:
+        </p>
+        <p className="treatment-text">
+          Life coaching works in a specific structured format. The coach works
+          together with you to formulate a plan. You will ascertain your goals
+          as the basis for this. Once these steps have been taken you will
+          collaborate to identify barriers and limiting beliefs that may have
+          been obstructing you.
+        </p>
+        <p className="treatment-text">
+          The coach will discuss and set challenging but measureable and
+          achievable goals on a regular basis for you to work towards and attain
+          to enable your final goal to be accomplished.
+        </p>
+        <div className="treatment-separator"></div>
+        <h3 className="treatment-heading">Health Coach</h3>
+        <p className="treatment-text">
+          A Health Coach supports people in gaining and using knowledge, skills,
+          tools and confidence to become active participants in their own care;
+          to enable them to reach their self-identified health and wellbeing
+          goals, using evidence based interventions to facilitate and maintain
+          the plans they have set out.
+        </p>
+        <p className="treatment-text">
+          Clients build new habits and make lasting changes.
+        </p>
+        <p className="treatment-text">
+          In the first conference (whether it be face to face, using zoom or
+          over the phone or by email) you will dictate how much interaction you
+          want and can alter this at any time. You may feel that face-to-face,
+          or using emails is best way of contact for you, or you may feel you
+          need a mixture of all methods, You are in control. I will facilitate
+          the changes you want to make.
+        </p>
+      </section>
       <div className="button-container">
         <Button
           variant="outline-success"

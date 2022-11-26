@@ -16,12 +16,10 @@ const Contact = () => {
     console.log(name, email, number, message);
   };
   return (
-    <div style={{ width: "80%", margin: "auto" }}>
+    <div className="outer-form">
       <Form>
         <img className="main-logo-treatments" src={strengthLogo} />
-        <h3 className="contact-heading">
-          Contact Jacky at A Strength In You
-        </h3>
+        <h3 className="contact-heading">Contact Jacky at A Strength In You</h3>
         <Form.Group className="mb-3" controlId="formBasicName">
           <Form.Label>Your Name (required)</Form.Label>
           <Form.Control
@@ -54,10 +52,16 @@ const Contact = () => {
           onChange={(e) => setMessage(e.target.value)}
         >
           <Form.Label>Your Message</Form.Label>
-          <Form.Control
-            type="text-area"
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
             placeholder="Please let us know why you're getting in contact with us today"
           />
+          {/* <Form.Control
+            type="textarea"
+            placeholder="Please let us know why you're getting in contact with us today"
+          /> */}
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicCheckbox">
           <p className="consent-heading">Contact Consent</p>

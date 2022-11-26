@@ -1,3 +1,7 @@
+.outer-grid {
+  margin: auto;
+}
+
 .condition-grid {
   margin-top: 50px;
   display: grid;
@@ -27,6 +31,12 @@
 }
 
 @media screen and (min-device-width: 620px) {
+  .condition-grid {
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+  }
+
   .carousel-wrapper {
     margin: auto;
     width: 80%;
@@ -46,9 +56,74 @@
     width: 100%;
     height: 300px;
   }
+
+  .condition-item {
+    width: 90%;
+    margin: auto;
+    font-size: 16px;
+  }
+
+  .treatment-carousel-item {
+    font-size: 18px;
+  }
 }
 
 @media only screen and (min-device-width: 960px) {
+  .carousel-wrapper {
+    margin: auto;
+    width: 80%;
+    height: 400px;
+  }
+
+  .carousel {
+    width: 100%;
+    height: 400px;
+  }
+
+  .d-block {
+    width: 100%;
+    height: 400px;
+  }
+  .w-100 {
+    width: 100%;
+    height: 400px;
+  }
+
+  .treatment-carousel-item {
+    font-size: 18px;
+  }
+
+  .condition-grid {
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+  }
+
+  .condition-item {
+    padding-left: 44px;
+    font-size: 18px;
+  }
+
 }
 @media only screen and (min-device-width: 1200px) {
+  .condition-grid {
+    margin: auto;
+    margin-top: 50px;
+    width: 65%;
+  }
+
+  .carousel-wrapper {
+    margin: auto;
+    width: 60%;
+    height: 400px;
+  }
+
+  .treatment-carousel-item {
+    font-size: 20px;
+  }
+
+  .condition-item {
+    padding-left: 44px;
+    font-size: 18px;
+  }
 }

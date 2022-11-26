@@ -31,7 +31,9 @@ const Somato = () => {
           more deceptive, appearing as decreased immune function, anxiety,
           fatigue or physiological dysfunction.
         </p>
-        <img className="treatment-image" src={somato} />
+        <div className="small-image-container">
+          <img className="treatment-image" src={somato} />
+        </div>
         <p className="treatment-text">
           There is vast research to show that a change in physical health is
           accompanied by a change in mental health and it is equally documented
@@ -57,7 +59,9 @@ const Somato = () => {
           muscle group is injured through a physical trauma; a memory of that
           trauma is stored in the affected tissue.
         </p>
-        <img className="wide-treatment-image" src={somato2} />
+        <div className="wide-image-container">
+          <img className="wide-treatment-image" src={somato2} />
+        </div>
         <p className="treatment-text">
           Generally this is a small, non-conscious spasm that has formed in an
           area of the body as a protective reminder of the trauma. If the memory
@@ -79,7 +83,9 @@ const Somato = () => {
           we are not quite ready to heal. This is common and is a protective
           factor.
         </p>
-        <img className="wide-treatment-image" src={somato3} />
+        <div className="wide-image-container">
+          <img className="wide-treatment-image" src={somato3} />
+        </div>
         <p className="treatment-text">
           When ready, the body will release and the patient may feel the need to
           move. This can happen spontaneously and without thought. This movement
@@ -88,7 +94,9 @@ const Somato = () => {
           involving the whole body as in the need to sit up or turn over or
           contort.
         </p>
-        <img className="wide-treatment-image" src={somato4} />
+        <div className="wide-image-container">
+          <img className="wide-treatment-image" src={somato4} />
+        </div>
         <p className="treatment-text">
           The therapist supports the movement by neutralising gravity and paying
           attention to the craniosacral rhythm.
