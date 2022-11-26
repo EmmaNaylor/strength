@@ -57,6 +57,7 @@ const Reiki = () => {
           imbalances are thought to lie. Reiki and Seichem may also be used
           remotely, with the recipient’s consent.
         </p>
+        <div className="treatment-separator"></div>
       </section>
       <section className="treatment-section">
         <h3 className="treatment-heading">Benefits of Reiki and Seichem</h3>

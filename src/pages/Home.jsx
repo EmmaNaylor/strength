@@ -17,6 +17,17 @@ const DesktopWrapper = styled.div`
   display: none;
   @media screen and (min-width: 620px) {
     display: block;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-left: calc(50% + 88px) !important;
+    transform: translateX(-50%);
+  }
+  @media screen and (min-width: 1000px) {
+    width: 80%;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 90%;
   }
 `;
 
@@ -27,9 +38,10 @@ const Home = () => {
       <section className="welcome-section">
         <h3 className="main-heading">Welcome to A Strength In You</h3>
         <p className="welcome-text">
-          A Holistic Practice for your Wellness in Northallerton, incorporating
+          A Holistic Practice for your Wellness in Darlington, incorporating
           North Yorkshire, and Teesside.
         </p>
+        <div className="treatment-separator"></div>
       </section>
       <section className="condition-section">
         <h3 className="main-heading">Conditions We Treat</h3>

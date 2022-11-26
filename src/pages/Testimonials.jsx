@@ -12,6 +12,7 @@ const Testimonials = () => {
           advice is also spot on and is completely individually tailored.
         </p>
         <p className="reviewer">Kathy Gribbon</p>
+        <div className="treatment-separator"></div>
       </section>
       <section className="review">
         <p className="review-text">
@@ -22,6 +23,7 @@ const Testimonials = () => {
           full of gratitude
         </p>
         <p className="reviewer">Tania Campbell</p>
+        <div className="treatment-separator"></div>
       </section>
       <section className="review">
         <p className="review-text">
@@ -33,6 +35,7 @@ const Testimonials = () => {
           Darlington and I can’t recommend her highly enough!
         </p>
         <p className="reviewer">Debbie Stokoe (Entrepeneur - Butterfly Communications)</p>
+        <div className="treatment-separator"></div>
       </section>
       <section className="review">
         <p className="review-text">

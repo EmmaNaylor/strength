@@ -46,6 +46,7 @@ const Nutrition = () => {
             programme for you to follow.
           </i>
         </p>
+        <div className="treatment-separator"></div>
         <h3 className="treatment-heading">Health Coach</h3>
         <p className="treatment-text">
           Book your individual consultation using my contact form

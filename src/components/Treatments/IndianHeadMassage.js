@@ -20,7 +20,7 @@ const IndianHeadMassage = () => {
           clients like the use of oil and prefer to have their shoulders bare.
         </p>
       </section>
-      <div className="wide-image-container" style={{width: "70%"}}>
+      <div className="indian-image-container">
         <img className="wide-treatment-image" src={indian} />
       </div>
       <section className="treatment-section">
@@ -28,6 +28,7 @@ const IndianHeadMassage = () => {
           It is a very relaxing head, neck, shoulder and facial massage with
           many therapeutic benefits
         </p>
+        <div className="treatment-separator"></div>
         <div className="treatment-grid">
           <ul className="treatment-list">
             <li className="treatment-item">
@@ -68,6 +69,7 @@ const IndianHeadMassage = () => {
             </li>
           </ul>
         </div>
+        <div className="treatment-separator"></div>
       </section>
       <section className="treatment-section">
         <p className="treatment-text">

@@ -30,6 +30,7 @@ const Meditation = () => {
           scheduled into the time spent.
         </p>
       </section>
+      <div className="treatment-separator"></div>
       <section className="treatment-section">
         <div className="wide-image-container">
           <img className="wide-treatment-image" src={meditation} />
@@ -43,6 +44,7 @@ const Meditation = () => {
           Depending on what you want from your encounter, we could focus on
           individual aspects of health, personal growth or healing.
         </p>
+        <div className="treatment-separator"></div>
       </section>
       <section className="treatment-section">
         <h3 className="treatment-heading">When will I feel the benefit?</h3>
@@ -51,6 +53,7 @@ const Meditation = () => {
           immediately. As you repeat your practice and extend the length of your
           meditation sessions you will experience deeper and longer benefits.
         </p>
+        <div className="treatment-separator"></div>
       </section>
       <section className="treatment-section">
         <h3 className="treatment-heading">

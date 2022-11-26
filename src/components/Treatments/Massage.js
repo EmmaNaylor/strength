@@ -52,6 +52,7 @@ const Massage = () => {
         <p className="treatment-text">
           Essential oils can be used if required.
         </p>
+        <div className="treatment-separator"></div>
       </section>
       <section className="treatment-section">
         <h3 className="treatment-heading">What are the benefits of Massage?</h3>
@@ -62,6 +63,7 @@ const Massage = () => {
           problems. Many athletes have a massage before and after training and
           competing, to stay in optimum condition and aid recovery.
         </p>
+        <div className="treatment-separator"></div>
       </section>
       <section className="treatment-section">
         <h3 className="treatment-heading">

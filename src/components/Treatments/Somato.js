@@ -51,6 +51,7 @@ const Somato = () => {
           contentment.
         </p>
       </section>
+      <div className="treatment-separator"></div>
       <section className="treatment-section">
         <h3 className="treatment-heading">What is Tissue Memory?</h3>
         <p className="treatment-text">
@@ -76,6 +77,7 @@ const Somato = () => {
           different and more appropriately healthy way, at the same time the
           physical tension from the area releases, thus easing the pain.
         </p>
+        <div className="treatment-separator"></div>
         <h3 className="treatment-heading">What is an SER Treatment like?</h3>
         <p className="treatment-text">
           The body will only release what it wants to and when it is ready to do

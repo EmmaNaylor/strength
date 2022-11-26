@@ -26,6 +26,7 @@ const Cranio = () => {
           you have any other questions.
         </p>
       </section>
+      <div className="treatment-separator"></div>
       <div className="small-image-container">
         <img className="treatment-image" src={cranio3} />
       </div>
@@ -38,6 +39,7 @@ const Cranio = () => {
           The craniosacral system consists of the bones, soft tissues, and fluid
           that surround the brain and spinal cord.
         </p>
+        <div className="treatment-separator"></div>
         <h3 className="treatment-heading">
           How can Craniosacral Therapy help me?
         </h3>
@@ -50,6 +52,7 @@ const Cranio = () => {
           touch that can release tensions to allow the entire body to relax and
           self-correct by freeing the system to perform at its best.
         </p>
+        <div className="treatment-separator"></div>
         <h3 className="treatment-heading">
           What should I expect during my Therapy?
         </h3>
@@ -65,6 +68,7 @@ const Cranio = () => {
           in areas which are not actually the source of the problem. Your
           session will last up to an hour.
         </p>
+        <div className="treatment-separator"></div>
         <h3 className="treatment-heading">
           What you might notice during Craniosacral Therapy?
         </h3>
@@ -74,12 +78,14 @@ const Cranio = () => {
           sensation. The majority of clients experience a feeling of very deep
           relaxation.
         </p>
+        <div className="treatment-separator"></div>
         <h3 className="treatment-heading">
           How do I book my session with you?
         </h3>
         <p className="treatment-text">
           Use our Contact form to book a session with me.
         </p>
+        <div className="treatment-separator"></div>
       </section>
       <div className="button-container">
         <Button

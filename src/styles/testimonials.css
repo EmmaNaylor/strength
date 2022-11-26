@@ -28,7 +28,7 @@
 .reviewer {
   font-weight: bold;
   color: #036c7b;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-device-width: 620px) {

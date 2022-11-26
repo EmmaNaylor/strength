@@ -3,7 +3,7 @@ import "../styles/conditions.css";
 
 const Conditions = () => {
   return (
-    <>
+    <div className="outer-large-condition">
       <div className="condition-grid">
         <ul className="condition-list">
           <li className="condition-item">Migraine</li>
@@ -35,7 +35,7 @@ const Conditions = () => {
           <li className="condition-item">Headaches</li>
         </ul>
       </div>
-    </>
+    </div>
   );
 };
 
