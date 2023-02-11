@@ -3,7 +3,7 @@ body {
   width: 100% !important;
 }
 .outer-home {
-  width: 85%;
+  width: 100%;
   margin: auto;
   font-family: "Roboto", sans-serif;
 }
@@ -15,6 +15,10 @@ body {
 }
 
 .welcome-text {
+  max-width: 95%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
   text-align: center;
   font-size: 18px;
 }
@@ -46,30 +50,34 @@ body {
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
+  outline: none;
+  box-shadow: none;
 }
 
-.navbar-collapse{
+.navbar-collapse {
   margin-left: 10px;
 }
 
 @media screen and (min-device-width: 620px) {
-}
-@media only screen and (min-device-width: 960px) {
-  .welcome-text {
-    margin-bottom: 30px;
-  }
-
-  .condition-section {
-    width: 75%;
+  .outer-home {
+    width: 85%;
     margin: auto;
   }
 }
+@media only screen and (min-device-width: 960px) {
+  .welcome-text {
+    max-width: 80%;
+  }
+
+  /* .condition-section {
+    width: 85%;
+    margin: auto;
+  } */
+}
 @media only screen and (min-device-width: 1200px) {
   .welcome-text {
+    max-width: 60%;
     font-size: 20px;
-    margin-bottom: 30px;
   }
 
   .main-heading {

@@ -17,6 +17,15 @@ function Navigation() {
           <Nav className="me-auto">
             <Nav.Link href="/home">Home</Nav.Link>
             <NavDropdown title="Services" id="basic-nav-dropdown">
+            <NavDropdown.Item href="/services/all_treatments">
+                All Treatments
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/services/iv_nutrient_therapy">
+                IV Nutrient Therapy
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/services/colonic_hydrotherapy">
+                Colonic Hydrotherapy
+              </NavDropdown.Item>
               <NavDropdown.Item href="/services/craniosacral_therapy">
                 Craniosacral Therapy
               </NavDropdown.Item>
@@ -38,9 +47,9 @@ function Navigation() {
               <NavDropdown.Item href="/services/massage_therapy">
                 Massage Therapy
               </NavDropdown.Item>
-              <NavDropdown.Item href="/services/indian_head_massage">
+              {/* <NavDropdown.Item href="/services/indian_head_massage">
                 Indian Head Massage
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
             </NavDropdown>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/testimonials">Testimonials</Nav.Link>

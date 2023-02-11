@@ -55,6 +55,7 @@
 .treatment-image {
   height: 100%;
   width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .wide-image-container {
@@ -77,6 +78,7 @@
 .wide-treatment-image {
   height: 100%;
   width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .thin-wide-treatment-image {
@@ -89,8 +91,21 @@
 }
 
 .treatment-grid {
-  margin-top: 20px;
-  display: grid;
+  height: auto;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.condition-grid {
+  height: auto;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: row;
 }
 
 .treatment-list {
@@ -116,6 +131,35 @@
   width: 80%;
   margin: auto;
   margin-bottom: 30px;
+}
+
+.all-treatments {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin: auto;
+  width: 90%;
+}
+
+.all-treatments-wide {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: auto;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.all-treatments-home {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: auto;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 auto;
 }
 
 @media screen and (min-device-width: 620px) {
@@ -156,6 +200,11 @@
     height: 200px;
     width: 100%;
   }
+
+  .card {
+    width: 40%;
+    flex: 1 1 auto;
+  }
 }
 @media only screen and (min-device-width: 960px) {
   .treatment-grid {
@@ -177,12 +226,12 @@
 
   .wide-image-container {
     height: 450px;
-    width: 80%;
+    width: 60%;
   }
 
   .indian-image-container {
     height: 400px;
-    width: 60%;
+    max-width: 60%;
   }
 
   .treatment-section {
@@ -196,6 +245,31 @@
     height: 200px;
     width: 100%;
   }
+
+  .all-treatments {
+    width: 50%;
+  }
+
+  .all-treatments-wide {
+    width: 50%;
+  }
+
+  .all-treatments-home {
+    width: 50%;
+  }
+
+  .flex-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .flex-wrapper-inner{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 50%;
+  }
+  
 }
 @media only screen and (min-device-width: 1200px) {
   .treatment-list {
@@ -208,7 +282,7 @@
   }
 
   .treatment-section {
-    width: 60%;
+    width: 80%;
   }
 
   .indian-image-container {

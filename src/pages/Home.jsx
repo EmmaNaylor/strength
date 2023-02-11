@@ -3,6 +3,7 @@ import strengthLogo from "../assets/strengthLogo.png";
 import Conditions from "../components/Conditions";
 import ConditionsLargerScreen from "../components/ConditionsLargerScreen";
 import ConditionCarousel from "../components/ConditionCarousel";
+import AllTreatmentsWide from "../components/Treatments/AllTreatmentsWide";
 import "../styles/home.css";
 import styled from "styled-components";
 
@@ -17,17 +18,6 @@ const DesktopWrapper = styled.div`
   display: none;
   @media screen and (min-width: 620px) {
     display: block;
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    margin-left: calc(50% + 88px) !important;
-    transform: translateX(-50%);
-  }
-  @media screen and (min-width: 1000px) {
-    width: 80%;
-  }
-  @media screen and (min-width: 1200px) {
-    width: 90%;
   }
 `;
 
@@ -46,24 +36,29 @@ const Home = () => {
       <section className="condition-section">
         <h3 className="main-heading">Conditions We Treat</h3>
         <p className="welcome-text">
+          A Strength In You has many modalities that can help alleviate some of
+          the symptoms of:
+        </p>
+        <MobileWrapper>
+          <Conditions />
+        </MobileWrapper>
+        <DesktopWrapper>
+          <ConditionsLargerScreen />
+        </DesktopWrapper>
+        <p className="welcome-text">
           It is discussed in the NICE guidelines how complementary therapies can
           assist in the treatment of chronic or life-limiting conditions such as
           fibromyalgia, multiple sclerosis, mental health problems (i.e. mild
           depression and anxiety) weight problems, musculoskeletal problems, or
           a history of substance misuse (including alcohol and drugs).
         </p>
-        <p className="welcome-text">
-          A Strength In You treats a wide range of conditions to help support
-          for your daily health and wellness including:
-        </p>
+
+        <h3 className="main-heading">Available Treatments</h3>
       </section>
-      <ConditionCarousel />
-      <MobileWrapper>
-        <Conditions />
-      </MobileWrapper>
-      <DesktopWrapper>
-        <ConditionsLargerScreen />
-      </DesktopWrapper>
+      <div>
+      <AllTreatmentsWide/>
+      </div>
+      {/* <ConditionCarousel /> */}
     </div>
   );
 };

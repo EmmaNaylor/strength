@@ -9,6 +9,7 @@ import Services from "./pages/Services";
 import About from "./pages/About";
 import Testimonials from "./pages/Testimonials";
 import Contact from "./pages/Contact";
+import "./app.css";
 function App() {
   return (
     <div className="App">

@@ -50,47 +50,47 @@ const Coaching = () => {
       </DesktopWrapper>
       <section className="treatment-section">
         <h3 className="treatment-heading">Why you might use a Life Coach</h3>
-        <div className="treatment-grid">
-          <ul className="treatment-list">
-            <li className="treatment-item">To help build confidence</li>
-            <li className="treatment-item">To improve self esteem</li>
-            <li className="treatment-item">To improve life skills</li>
-            <li className="treatment-item">To change a work/life balance</li>
-            <li className="treatment-item">To reprogram negative beliefs</li>
-            <li className="treatment-item">To improve communication skills</li>
-            <li className="treatment-item">
+        <div className="condition-grid">
+          <ul className="condition-list">
+            <li className="condition-item">To help build confidence</li>
+            <li className="condition-item">To improve self esteem</li>
+            <li className="condition-item">To improve life skills</li>
+            <li className="condition-item">To increase motiviation</li>
+            <li className="condition-item">To change a work/life balance</li>
+            <li className="condition-item">To reprogram negative beliefs</li>
+            <li className="condition-item">To improve communication skills</li>
+            <li className="condition-item">
               To alter unhelpful behavioural patterns
             </li>
-            <li className="treatment-item">To increase motiviation</li>
           </ul>
         </div>
       </section>
       <div className="wide-image-container">
         <img className="wide-treatment-image" src={beach} />
       </div>
+      <p className="treatment-text">
+          The individual (the client) and life coach have a creative partnership
+          that pursues to:
+        </p>
       <div className="treatment-grid">
-        <ul className="treatment-list">
-          <li className="treatment-item">
+        <ul className="condition-list">
+          <li className="condition-item">
             Encourage self-discovery and growth
           </li>
-          <li className="treatment-item">
+          <li className="condition-item">
+            Nurtures a person’s accountability in order to increase productivity
+          </li>
+          <li className="condition-item">
             Nurture and evoke strategies and plan of action based on the persons
             goals, personality and vision
           </li>
-          <li className="treatment-item">
+          <li className="condition-item">
             Clarify, identify and create a vision with attainable measurable
             goals for a person’s needs
-          </li>
-          <li className="treatment-item">
-            Nurtures a person’s accountability in order to increase productivity
           </li>
         </ul>
       </div>
       <section className="treatment-section">
-        <p className="treatment-text">
-          The individual (the client) and life coach have a creative partnership
-          that pursues to:
-        </p>
         <p className="treatment-text">
           Life coaching works in a specific structured format. The coach works
           together with you to formulate a plan. You will ascertain your goals

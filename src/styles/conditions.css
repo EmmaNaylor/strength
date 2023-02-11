@@ -3,22 +3,38 @@
 }
 
 .condition-grid {
-  margin-top: 50px;
-  display: grid;
-  grid-template-columns: 2fr 2fr;
+  height: auto;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: row;
 }
 
 .condition-list {
+  display: flex;
+  flex-direction: column;
   padding: 0;
-  margin: 0;
+  margin: 10px;
+  gap: 10px;
   list-style-type: none;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
 }
 
 .condition-item {
+  flex: 1 1 auto;
+  width: 100%;
   background: url("../assets/check.png") no-repeat left top;
-  height: 34px;
-  padding-left: 44px;
+  /* height: 50px; */
+  padding: auto;
+  margin: auto;
+  padding-left: 34px;
   font-size: 14px;
+  align-self: center;
+  text-align: left;
 }
 
 .backing {
@@ -42,9 +58,8 @@
     margin: auto;
   }
 
-  .condition-grid {
-    margin: auto;
-    margin-top: 50px;
+  .condition-item {
+    padding-left: 44px;
   }
 
   .carousel-wrapper {
@@ -69,7 +84,6 @@
   }
 
   .condition-item {
-    width: 90%;
     margin: auto;
     font-size: 16px;
   }
@@ -80,6 +94,12 @@
 }
 
 @media only screen and (min-device-width: 960px) {
+
+  .condition-grid {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  
   .carousel-wrapper {
     margin: auto;
     width: 80%;
@@ -108,7 +128,6 @@
 
   .condition-grid {
     margin: auto;
-    margin-top: 50px;
   }
 
   .condition-item {
@@ -117,10 +136,6 @@
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  .condition-grid {
-    margin: auto;
-    margin-top: 50px;
-  }
 
   .carousel-wrapper {
     margin: auto;
