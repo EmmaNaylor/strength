@@ -10,7 +10,7 @@ import Meditation from "../components/Treatments/Meditation";
 import Nutrition from "../components/Treatments/Nutrition";
 import Reiki from "../components/Treatments/Reiki";
 import Somato from "../components/Treatments/Somato";
-import Colonic from "../components/Treatments/Coaching";
+import Colonic from "../components/Treatments/Colonic";
 import IVTherapy from "../components/Treatments/IVTherapy";
 
 const Services = () => {

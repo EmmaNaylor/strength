@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import React, { useState } from "react";
+import React from "react";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
-import Navigation from "./components/nav";
+import Navigation from "./components/nav2";
 import HeaderBar from "./components/HeaderBar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -13,7 +13,7 @@ import "./app.css";
 function App() {
   return (
     <div className="App">
-      <HeaderBar />
+      {/* <HeaderBar /> */}
       <Navigation />
       <BrowserRouter>
         <Routes>

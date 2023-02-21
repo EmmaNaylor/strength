@@ -5,13 +5,22 @@ body {
 .outer-home {
   width: 100%;
   margin: auto;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .main-logo {
   margin: auto;
   display: block;
   max-width: 80vw;
+}
+
+.main-logo-nav {
+  margin: auto;
+  display: block;
+}
+
+.navbar {
+  font-family: "Raleway", sans-serif !important;
 }
 
 .welcome-text {
@@ -30,6 +39,13 @@ body {
   color: #036c7b;
 }
 
+.welcome {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 26px;
+  color: #036c7b;
+}
+
 .welcome-section {
   margin-top: 20px;
 }
@@ -38,24 +54,48 @@ body {
   margin-top: 50px;
 }
 
-.nav-surround {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  margin-left: 2%;
+.offcanvas {
+  background-color: #036c7b;
+  color: white;
 }
 
-.navbar-toggler,
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-  outline: none;
-  box-shadow: none;
+.offcanvas-title {
+  font-family: "Raleway", sans-serif !important;
+  font-weight: 800;
+  font-size: 24px;
+  color: #036c7b;
 }
 
-.navbar-collapse {
-  margin-left: 10px;
+.nav-item {
+  font-family: "Raleway", sans-serif !important;
+  font-weight: 600;
+}
+
+.nav-link {
+  font-family: "Raleway", sans-serif !important;
+  font-weight: 600;
+}
+
+.nav-item:hover {
+  color: #0cb5cf !important;
+}
+
+.nav-link:hover {
+  color: #0cb5cf !important;
+}
+
+.dropdown-menu {
+  background-color: #cef6fc !important;
+  border: none;
+}
+
+.dropdown-item:hover {
+  background-color: #0cb5cf !important;
+  font-weight: 600;
+}
+
+.btn-close {
+  color: white !important;
 }
 
 @media screen and (min-device-width: 620px) {
@@ -83,6 +123,11 @@ body {
   .main-heading {
     margin-bottom: 25px;
     font-size: 25px;
+  }
+
+  .welcome {
+    margin-bottom: 25px;
+    font-size: 36px;
   }
 
   .welcome-section {

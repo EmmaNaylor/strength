@@ -2,14 +2,10 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import strengthLogo from "../../assets/strengthLogo.png";
 import nutrition from "../../assets/nutrition-long.jpg";
-import Button from "react-bootstrap/Button";
+import BookingButton from "../BookingButton";
 import "../../styles/treatments.css";
 
 const Nutrition = () => {
-  const navigate = useNavigate();
-  const handleClick = () => {
-    navigate("/contact");
-  };
   return (
     <div className="outer-treatments">
       <img className="main-logo-treatments" src={strengthLogo} />
@@ -23,7 +19,7 @@ const Nutrition = () => {
           the word with restriction and weight loss. The definition I prefer is:
         </p>
         <p className="treatment-text">
-          <b style={{color: "#036c7b"}}>
+          <b style={{ color: "#036c7b", }}>
             Nutrition should be considered in terms of its qualities and
             composition and its effect on health.
           </b>
@@ -31,10 +27,11 @@ const Nutrition = () => {
         <p className="treatment-text">
           I look at nutritional intake as being either helpful or unhelpful. A
           qualified nutritional therapist promotes good health, performance, and
-          personal care through the application of <b style={{color: "#036c7b"}}>scientific nutrition</b>.
-          Nutritional therapy may help clients to improve their sense of health
-          and well-being. I also work with other healthcare professionals to
-          support people with chronic conditions.
+          personal care through the application of{" "}
+          <b style={{ color: "#036c7b" }}>scientific nutrition</b>. Nutritional
+          therapy may help clients to improve their sense of health and
+          well-being. I also work with other healthcare professionals to support
+          people with chronic conditions.
         </p>
         <p className="treatment-text">
           <i>
@@ -52,15 +49,7 @@ const Nutrition = () => {
           Book your individual consultation using my contact form
         </p>
       </section>
-      <div className="button-container">
-        <Button
-          variant="outline-success"
-          className="book"
-          onClick={handleClick}
-        >
-          Book
-        </Button>
-      </div>
+      <BookingButton />
       <img className="thin-wide-treatment-image" src={nutrition} />
     </div>
   );

@@ -3,14 +3,10 @@ import { useNavigate } from "react-router-dom";
 import strengthLogo from "../../assets/strengthLogo.png";
 import cranio from "../../assets/cranio.jpg";
 import cranio3 from "../../assets/cranio_3.jpg";
-import Button from "react-bootstrap/Button";
+import BookingButton from "../BookingButton";
 import "../../styles/treatments.css";
 
 const Cranio = () => {
-  const navigate = useNavigate();
-  const handleClick = () => {
-    navigate("/contact");
-  };
   return (
     <div className="outer-treatments">
       <img className="main-logo-treatments" src={strengthLogo} />
@@ -87,15 +83,7 @@ const Cranio = () => {
         </p>
         <div className="treatment-separator"></div>
       </section>
-      <div className="button-container">
-        <Button
-          variant="outline-success"
-          className="book"
-          onClick={handleClick}
-        >
-          Book
-        </Button>
-      </div>
+      <BookingButton />
     </div>
   );
 };

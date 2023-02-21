@@ -3,14 +3,10 @@ import { useNavigate } from "react-router-dom";
 import strengthLogo from "../../assets/strengthLogo.png";
 import massage from "../../assets/massage.jpg";
 import massage2 from "../../assets/massage-2.jpg";
-import Button from "react-bootstrap/Button";
+import BookingButton from "../BookingButton";
 import "../../styles/treatments.css";
 
 const Massage = () => {
-  const navigate = useNavigate();
-  const handleClick = () => {
-    navigate("/contact");
-  };
   return (
     <div className="outer-treatments">
       <img className="main-logo-treatments" src={strengthLogo} />
@@ -87,15 +83,7 @@ const Massage = () => {
           back pain.
         </p>
       </section>
-      <div className="button-container">
-        <Button
-          variant="outline-success"
-          className="book"
-          onClick={handleClick}
-        >
-          Book
-        </Button>
-      </div>
+      <BookingButton />
     </div>
   );
 };

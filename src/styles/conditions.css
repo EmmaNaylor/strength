@@ -3,15 +3,38 @@
 }
 
 .condition-grid {
+  width: 100%;
   height: auto;
   justify-content: center;
-  margin-top: 5%;
+  margin: auto;
   margin-bottom: 5%;
+  padding: 0;
   display: flex;
   flex-direction: row;
+  gap: 20px;
+  background-image: url('../assets/backgroundTextureBlue.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  box-shadow:26px 26px 51px 0 white inset, -26px -26px 51px 0 white inset;
 }
 
 .condition-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 10px;
+  gap: 10px;
+  list-style-type: none;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  max-width: 100%;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+.condition-list-dual {
   display: flex;
   flex-direction: column;
   padding: 0;
@@ -27,14 +50,12 @@
 .condition-item {
   flex: 1 1 auto;
   width: 100%;
-  background: url("../assets/check.png") no-repeat left top;
-  /* height: 50px; */
-  padding: auto;
-  margin: auto;
-  padding-left: 34px;
+  /* padding: auto;
+  margin: auto; */
   font-size: 14px;
   align-self: center;
-  text-align: left;
+  text-align: center;
+  font-weight: 600;
 }
 
 .backing {
@@ -56,10 +77,6 @@
   .outer-large-condition{
     width: 90%;
     margin: auto;
-  }
-
-  .condition-item {
-    padding-left: 44px;
   }
 
   .carousel-wrapper {
@@ -96,8 +113,8 @@
 @media only screen and (min-device-width: 960px) {
 
   .condition-grid {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    gap: 60px;
+    max-width: 60%;
   }
   
   .carousel-wrapper {
@@ -125,13 +142,11 @@
   .treatment-carousel-item {
     font-size: 18px;
   }
-
-  .condition-grid {
-    margin: auto;
+  .condition-list {
+    max-width: 80%;
   }
 
   .condition-item {
-    padding-left: 44px;
     font-size: 18px;
   }
 }
@@ -164,8 +179,7 @@
   }
 
   .condition-item {
-    padding-left: 44px;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .outer-large-condition{

@@ -7,7 +7,7 @@ import "../styles/home.css";
 
 function Navigation() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar sticky="top" variant="light" style={{ backgroundColor: '#0CB5CF' }}>
       <div className="nav-surround">
         <Navbar.Brand href="/home">
           <img src={logo} />
@@ -17,7 +17,7 @@ function Navigation() {
           <Nav className="me-auto">
             <Nav.Link href="/home">Home</Nav.Link>
             <NavDropdown title="Services" id="basic-nav-dropdown">
-            <NavDropdown.Item href="/services/all_treatments">
+              <NavDropdown.Item href="/services/all_treatments">
                 All Treatments
               </NavDropdown.Item>
               <NavDropdown.Item href="/services/iv_nutrient_therapy">

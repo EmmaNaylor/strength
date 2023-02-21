@@ -4,7 +4,7 @@ import strengthLogo from "../../assets/strengthLogo.png";
 import reiki1 from "../../assets/reiki-1.jpg";
 import reiki2 from "../../assets/reiki-2.jpg";
 import reiki3 from "../../assets/reiki-3.jpg";
-import Button from "react-bootstrap/Button";
+import BookingButton from "../BookingButton";
 import "../../styles/treatments.css";
 import styled from "styled-components";
 
@@ -16,10 +16,6 @@ const DesktopWrapper = styled.div`
 `;
 
 const Reiki = () => {
-  const navigate = useNavigate();
-  const handleClick = () => {
-    navigate("/contact");
-  };
   return (
     <div className="outer-treatments">
       <img className="main-logo-treatments" src={strengthLogo} />
@@ -69,15 +65,7 @@ const Reiki = () => {
           medical care in hospitals, hospices or at home.
         </p>
       </section>
-      <div className="button-container">
-        <Button
-          variant="outline-success"
-          className="book"
-          onClick={handleClick}
-        >
-          Book
-        </Button>
-      </div>
+      <BookingButton/>
     </div>
   );
 };

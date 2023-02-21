@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import strengthLogo from "../assets/strengthLogo.png";
 import Conditions from "../components/Conditions";
 import ConditionsLargerScreen from "../components/ConditionsLargerScreen";
@@ -26,19 +26,19 @@ const Home = () => {
     <div className="outer-home">
       <img className="main-logo" src={strengthLogo} />
       <section className="welcome-section">
-        <h3 className="main-heading">Welcome to A Strength In You</h3>
+        <h3 className="welcome">Welcome to A Strength In You</h3>
         <p className="welcome-text">
           A Holistic Practice for your Wellness in Darlington, incorporating
           North Yorkshire, and Teesside.
         </p>
         <div className="treatment-separator"></div>
-      </section>
-      <section className="condition-section">
         <h3 className="main-heading">Conditions We Treat</h3>
         <p className="welcome-text">
           A Strength In You has many modalities that can help alleviate some of
           the symptoms of:
         </p>
+        </section>
+        <section className="condition-section">
         <MobileWrapper>
           <Conditions />
         </MobileWrapper>
@@ -52,11 +52,10 @@ const Home = () => {
           depression and anxiety) weight problems, musculoskeletal problems, or
           a history of substance misuse (including alcohol and drugs).
         </p>
-
         <h3 className="main-heading">Available Treatments</h3>
       </section>
       <div>
-      <AllTreatmentsWide/>
+        <AllTreatmentsWide />
       </div>
       {/* <ConditionCarousel /> */}
     </div>

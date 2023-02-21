@@ -2,14 +2,10 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import strengthLogo from "../../assets/strengthLogo.png";
 import indian from "../../assets/indian.jpg";
-import Button from "react-bootstrap/Button";
+import BookingButton from "../BookingButton";
 import "../../styles/treatments.css";
 
 const IndianHeadMassage = () => {
-  const navigate = useNavigate();
-  const handleClick = () => {
-    navigate("/contact");
-  };
   return (
     <div className="outer-treatments">
       <img className="main-logo-treatments" src={strengthLogo} />
@@ -80,15 +76,7 @@ const IndianHeadMassage = () => {
           a history of substance misuse (including alcohol and drugs).
         </p>
       </section>
-      <div className="button-container">
-        <Button
-          variant="outline-success"
-          className="book"
-          onClick={handleClick}
-        >
-          Book
-        </Button>
-      </div>
+      <BookingButton />
     </div>
   );
 };

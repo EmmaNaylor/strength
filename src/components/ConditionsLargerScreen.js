@@ -4,7 +4,7 @@ import "../styles/conditions.css";
 const Conditions = () => {
   return (
     <div className="condition-grid">
-      <ul className="condition-list">
+      <ul className="condition-list-dual">
         <li className="condition-item">Migraine</li>
         <li className="condition-item">Skin Concerns</li>
         <li className="condition-item">Hypertension</li>
@@ -16,7 +16,7 @@ const Conditions = () => {
         <li className="condition-item">Chronic Pain</li>
         <li className="condition-item">Motor Coordination Concerns</li>
       </ul>
-      <ul className="condition-list">
+      <ul className="condition-list-dual">
         <li className="condition-item">Sleep Disorders</li>
         <li className="condition-item">Sciatica</li>
         <li className="condition-item">Neuralgia</li>
@@ -28,7 +28,7 @@ const Conditions = () => {
         <li className="condition-item">Constipation</li>
         <li className="condition-item">Anxiety</li>
       </ul>
-      <ul className="condition-list">
+      <ul className="condition-list-dual">
         <li className="condition-item">Vertigo</li>
         <li className="condition-item">Muscle Pains</li>
         <li className="condition-item">Low mood</li>

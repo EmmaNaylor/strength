@@ -1,16 +1,10 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import strengthLogo from "../../assets/strengthLogo.png";
-import cranio from "../../assets/cranio.jpg";
-import cranio3 from "../../assets/cranio_3.jpg";
-import Button from "react-bootstrap/Button";
+import BookingButton from "../BookingButton";
 import "../../styles/treatments.css";
+import VitaminAccordion from "./VitaminAccordion";
 
 const IVTherapy = () => {
-  const navigate = useNavigate();
-  const handleClick = () => {
-    navigate("/contact");
-  };
   return (
     <div className="outer-treatments">
       <img className="main-logo-treatments" src={strengthLogo} />
@@ -24,13 +18,6 @@ const IVTherapy = () => {
           sense of wellbeing and support to the body.
         </p>
       </section>
-      {/* <div className="treatment-separator"></div> */}
-      {/* <div className="small-image-container">
-        <img className="treatment-image" src={cranio3} />
-      </div>
-      <div className="small-image-container">
-        <img className="treatment-image" src={cranio} />
-      </div> */}
       <section className="treatment-section">
         <h3 className="treatment-heading">Benefits</h3>
         <p className="treatment-text">
@@ -39,7 +26,7 @@ const IVTherapy = () => {
           processes of healing itself.
         </p>
         {/* <div className="treatment-separator"></div> */}
-        <p className="treatment-text">
+        <p className="treatment-text-2">
           These IV infusions have been created by Dr Vincent Wong, Global
           Aesthetic leader, for assisting with :
         </p>
@@ -76,73 +63,8 @@ const IVTherapy = () => {
           intramuscularly, this bypasses the digestive process and directly
           introduces it into the bloodstream for rapid use by the body.
         </p>
-        {/* <div className="treatment-separator"></div> */}
-        <div className="flex-wrapper">
-          <div className="flex-wrapper-inner">
-            <h3 className="treatment-heading">Symptoms of Deficiency</h3>
-            <p className="treatment-text">
-              Vitamin B12 deficiency can cause many symptoms, including:
-            </p>
-
-            <div className="condition-grid">
-              <ul className="condition-list">
-                <li className="condition-item">Lack of energy</li>
-                <li className="condition-item">Weakness</li>
-                <li className="condition-item">Shortness of Breath</li>
-                <li className="condition-item">Poor sleep</li>
-                <li className="condition-item">Constipation</li>
-                <li className="condition-item">Loss of appetite</li>
-                <li className="condition-item">Weight loss</li>
-                <li className="condition-item">Anaemia</li>
-                <li className="condition-item">Poor memory</li>
-                <li className="condition-item">
-                  Soreness of the mouth or tongue
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="flex-wrapper-inner">
-            <h3 className="treatment-heading">Benefits</h3>
-            <p className="treatment-text">The main benefits include:</p>
-
-            <div className="condition-grid">
-              <ul className="condition-list">
-                <li className="condition-item">Increased energy</li>
-                <li className="condition-item">Better sleep</li>
-                <li className="condition-item">Improved mood</li>
-                <li className="condition-item">Faster metabolism</li>
-                <li className="condition-item">Better cognitive focus</li>
-                <li className="condition-item">Sharper mental clarity</li>
-                <li className="condition-item">Less fatigue</li>
-                <li className="condition-item">Prevents Anaemia</li>
-                <li className="condition-item">Healthy skin, hair & nails</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <p className="treatment-text">
-          B 12 injections delivered intramuscularly are recommended every 12
-          weeks
-        </p>
-        <h3 className="treatment-heading">Contraindications</h3>
-        <p className="treatment-text">
-          You must not have this treatment if you have:
-        </p>
-        <div className="treatment-grid">
-          <ul className="condition-list">
-            <li className="condition-item">High blood pressure</li>
-            <li className="condition-item">Congestive heart failure</li>
-            <li className="condition-item">Liver disease</li>
-            <li className="condition-item">
-              Kidney disease (or currently on dialysis)
-            </li>
-            <li className="condition-item">
-              A previous severe allergic reaction to hydroxocobalamin, Vitamin
-              B12, or cyanocobalamin (Nascobal, Cobolin, Cyomin, and others).
-            </li>
-          </ul>
-        </div>
-         <div className="treatment-separator"></div>
+        <VitaminAccordion />
+        <div className="treatment-separator"></div>
         <h3 className="treatment-heading">Glutathione Injections</h3>
         <p className="treatment-text">
           Glutathione is an antioxidant produced in cells. It is mainly
@@ -173,7 +95,7 @@ const IVTherapy = () => {
         <div className="flex-wrapper">
           <div className="flex-wrapper-inner">
             <h3 className="treatment-heading">Role of Glutathione</h3>
-            <p className="treatment-text">
+            <p className="treatment-text-2">
               Glutathione has many important functions in the body, including:
             </p>
 
@@ -203,7 +125,7 @@ const IVTherapy = () => {
           </div>
           <div className="flex-wrapper-inner">
             <h3 className="treatment-heading">Benefits</h3>
-            <p className="treatment-text">The main benefits include:</p>
+            <p className="treatment-text-2">The main benefits include:</p>
 
             <div className="condition-grid">
               <ul className="condition-list">
@@ -223,15 +145,7 @@ const IVTherapy = () => {
           </div>
         </div>
       </section>
-      <div className="button-container">
-        <Button
-          variant="outline-success"
-          className="book"
-          onClick={handleClick}
-        >
-          Book
-        </Button>
-      </div>
+      <BookingButton />
     </div>
   );
 };

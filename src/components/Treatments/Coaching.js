@@ -1,12 +1,11 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import strengthLogo from "../../assets/strengthLogo.png";
 import coach from "../../assets/lifecoach.jpg";
 import coach2 from "../../assets/lifecoach-2.jpg";
 import beach from "../../assets/beach.jpg";
-import Button from "react-bootstrap/Button";
 import "../../styles/treatments.css";
 import styled from "styled-components";
+import BookingButton from "../BookingButton";
 
 const DesktopWrapper = styled.div`
   display: none;
@@ -16,10 +15,6 @@ const DesktopWrapper = styled.div`
 `;
 
 const Coaching = () => {
-  const navigate = useNavigate();
-  const handleClick = () => {
-    navigate("/contact");
-  };
   return (
     <div className="outer-treatments">
       <img className="main-logo-treatments" src={strengthLogo} />
@@ -69,20 +64,21 @@ const Coaching = () => {
         <img className="wide-treatment-image" src={beach} />
       </div>
       <p className="treatment-text">
-          The individual (the client) and life coach have a creative partnership
-          that pursues to:
-        </p>
+        The individual (the client) and life coach have a creative partnership
+        that pursues to:
+      </p>
       <div className="treatment-grid">
         <ul className="condition-list">
           <li className="condition-item">
             Encourage self-discovery and growth
           </li>
           <li className="condition-item">
-            Nurtures a person’s accountability in order to increase productivity
-          </li>
-          <li className="condition-item">
             Nurture and evoke strategies and plan of action based on the persons
             goals, personality and vision
+          </li>
+          <li className="condition-item">
+            Clarify, identify and create a vision with attainable measurable
+            goals for a person’s needs
           </li>
           <li className="condition-item">
             Clarify, identify and create a vision with attainable measurable
@@ -124,15 +120,7 @@ const Coaching = () => {
           the changes you want to make.
         </p>
       </section>
-      <div className="button-container">
-        <Button
-          variant="outline-success"
-          className="book"
-          onClick={handleClick}
-        >
-          Book
-        </Button>
-      </div>
+      <BookingButton />
     </div>
   );
 };

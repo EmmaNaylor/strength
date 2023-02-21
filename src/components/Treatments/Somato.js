@@ -5,14 +5,10 @@ import somato from "../../assets/somato.jpg";
 import somato2 from "../../assets/somato-2.jpg";
 import somato3 from "../../assets/somato-3.jpg";
 import somato4 from "../../assets/somato-4.jpg";
-import Button from "react-bootstrap/Button";
+import BookingButton from "../BookingButton";
 import "../../styles/treatments.css";
 
 const Somato = () => {
-  const navigate = useNavigate();
-  const handleClick = () => {
-    navigate("/contact");
-  };
   return (
     <div className="outer-treatments">
       <img className="main-logo-treatments" src={strengthLogo} />
@@ -131,15 +127,7 @@ const Somato = () => {
           necessarily for everyone.
         </p>
       </section>
-      <div className="button-container">
-        <Button
-          variant="outline-success"
-          className="book"
-          onClick={handleClick}
-        >
-          Book
-        </Button>
-      </div>
+      <BookingButton/>
     </div>
   );
 };
