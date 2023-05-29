@@ -1,6 +1,8 @@
 .outer-form {
   width: 80%;
   margin: auto;
+  /* padding-left: 300px; */
+  /* padding-top: 100px; */
 }
 
 .contact-button {
@@ -46,10 +48,15 @@
     margin-top: 15px;
     width: 20%;
   }
+
+  .outer-form {
+    padding-left: 300px;
+    padding-top: 100px;
+  }
 }
 @media only screen and (min-device-width: 960px) {
   .outer-form {
-    width: 60%;
+    /* width: 60%; */
     margin: auto;
   }
   .form-label {

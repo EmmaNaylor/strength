@@ -48,6 +48,45 @@ const Testimonials = () => {
           definitey be booking another session soon. Highly recommended.
         </p>
         <p className="reviewer">Rosie Brent (Owner - Rosiebrent.com)</p>
+        <div className="treatment-separator"></div>
+      </section>
+      <section className="review">
+        <p className="review-text">
+          I have suffered with chronic back pain for the last 10 years, so decided
+          to see Jacky for Craniosacral Therapy. As I had heard how good it was.
+          The treatment itself is very relaxing and Jacky made me feel very at ease,
+          but I was sceptical if it would help me or not. When I get home from work
+          and sit down for awhile I always seize up and I'm in agony once I try to
+          stand again. When I get out of bed on a morning I'm in a lot of pain until
+          my pain meds start kicking in. But after one session with Jacky I noticed
+          a difference straight away. There was no pain on an evening or when I got up.
+          I know I will have to have a few appointments to getthe full benefit, but I 
+          can highly recommend this treatment. Thank you Jacky x
+        </p>
+        <p className="reviewer">M. Kidd Helm</p>
+        <div className="treatment-separator"></div>
+      </section>
+      <section className="review">
+        <p className="review-text">
+          Highly recommend Jacky. She put me at ease straight away and was very
+          knowledgeable. Lovely lady.
+        </p>
+        <p className="reviewer">Anonymous</p>
+        <div className="treatment-separator"></div>
+      </section>
+      <section className="review">
+        <p className="review-text">
+          Brilliant practitioner, and really lovely and friendly lady. I've been seeing Jacky
+          for a few months now for ongoing Craniosacral Therapy and emotional release to treat
+          my PTSD. Jacky has helped release so much deep tension and stress held in my body
+          to address the somatic part of my condition and helped in my recovery. It's crazy 
+          how pressure in your neck can release so much tightness in your hips which sports
+          massage can't shift. Jacky has also been an emotional support applying her knowledge
+          and expertise from her other disciplines to guide me to live healthier and even gave
+          me plenty of career advice during our chats! A true professional, I couldn't recommend
+          her enough.
+        </p>
+        <p className="reviewer">H. Hayllar</p>
       </section>
     </div>
   );

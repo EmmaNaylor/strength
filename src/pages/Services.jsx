@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import AllTreatments from "../components/Treatments/AllTreatments";
-import AllTreatmentsWide from "../components/Treatments/AllTreatmentsWide";
+import AllTreatmentsPage from "../components/Treatments/AllTreatmentsPage";
 import Coaching from "../components/Treatments/Coaching";
 import Cranio from "../components/Treatments/Cranio";
 import IndianHeadMassage from "../components/Treatments/IndianHeadMassage";
@@ -30,7 +30,7 @@ const Services = () => {
   const all = !treatments.includes(service);
   return (
     <>
-      {all && <AllTreatmentsWide />}
+      {all && <AllTreatmentsPage />}
       {service === "iv_nutrient_therapy" && <IVTherapy />}
       {service === "colonic_hydrotherapy" && <Colonic />}
       {service === "craniosacral_therapy" && <Cranio />}

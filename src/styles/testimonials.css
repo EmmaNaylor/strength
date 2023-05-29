@@ -3,6 +3,8 @@
   margin: auto;
   font-family: 'Raleway', sans-serif;
   text-align: center;
+  /* padding-left: 300px; */
+  /* padding-top: 100px; */
 }
 
 .review-heading {
@@ -35,6 +37,11 @@
   .review-text {
     font-size: 18px;
     margin-bottom: 20px;
+  }
+
+  .outer-review {
+    padding-left: 300px;
+    padding-top: 100px;
   }
 }
 @media only screen and (min-device-width: 960px) {

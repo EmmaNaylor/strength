@@ -6,6 +6,8 @@ body {
   width: 100%;
   margin: auto;
   font-family: "Raleway", sans-serif;
+  /* padding-left: 300px; */
+  /* padding-top: 100px; */
 }
 
 .main-logo {
@@ -102,6 +104,8 @@ body {
   .outer-home {
     width: 85%;
     margin: auto;
+    padding-left: 300px;
+    padding-top: 100px;
   }
 }
 @media only screen and (min-device-width: 960px) {

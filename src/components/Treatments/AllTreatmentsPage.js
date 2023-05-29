@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import CardGroup from "react-bootstrap/CardGroup";
+import { useNavigate } from "react-router-dom";
 import "../../styles/treatments.css";
 import meditation from "../../assets/meditation.jpg";
 import cranio from "../../assets/cranio_2.jpg";
@@ -43,21 +43,26 @@ const images = [
   somato,
 ];
 
-const AllTreatmentsHome = () => {
+const AllTreatmentsPage = () => {
+  const navigate = useNavigate();
+  const handleClick = (location) => {
+    console.log(`services/${location}`);
+    navigate(`/services/${location}`);
+  };
   return (
-    <div className="all-treatments-home">
-      <Card>
+    <div className="all-treatments-page">
+      <Card onClick={() => handleClick("iv_nutrient_therapy")}>
         <Card.Img
           variant="top"
           src={images[0]}
-          style={{ objectFit: "cover", height: "200px"}}
+          style={{ objectFit: "cover", height: "200px" }}
         />
         <Card.Body>
           <Card.Title>{titles[0]}</Card.Title>
           <Card.Text>{descriptions[0]}</Card.Text>
         </Card.Body>
       </Card>
-      <Card>
+      <Card onClick={() => handleClick("colonic_hydrotherapy")}>
         <Card.Img
           variant="top"
           src={images[1]}
@@ -68,74 +73,74 @@ const AllTreatmentsHome = () => {
           <Card.Text>{descriptions[1]}</Card.Text>
         </Card.Body>
       </Card>
-        <Card>
-          <Card.Img
-            variant="top"
-            src={images[2]}
-            style={{ objectFit: "cover", height: "200px" }}
-          />
-          <Card.Body>
-            <Card.Title>{titles[2]}</Card.Title>
-            <Card.Text>{descriptions[2]}</Card.Text>
-          </Card.Body>
-        </Card>
-        <Card>
-          <Card.Img
-            variant="top"
-            src={images[3]}
-            style={{ objectFit: "cover", height: "200px" }}
-          />
-          <Card.Body>
-            <Card.Title>{titles[3]}</Card.Title>
-            <Card.Text>{descriptions[3]}</Card.Text>
-          </Card.Body>
-        </Card>
-        <Card>
-          <Card.Img
-            variant="top"
-            src={images[4]}
-            style={{ objectFit: "cover", height: "200px" }}
-          />
-          <Card.Body>
-            <Card.Title>{titles[4]}</Card.Title>
-            <Card.Text>{descriptions[4]}</Card.Text>
-          </Card.Body>
-        </Card>
-        <Card>
-          <Card.Img
-            variant="top"
-            src={images[5]}
-            style={{ objectFit: "cover", height: "200px" }}
-          />
-          <Card.Body>
-            <Card.Title>{titles[5]}</Card.Title>
-            <Card.Text>{descriptions[5]}</Card.Text>
-          </Card.Body>
-        </Card>
-        <Card>
-          <Card.Img
-            variant="top"
-            src={images[6]}
-            style={{ objectFit: "cover", height: "200px" }}
-          />
-          <Card.Body>
-            <Card.Title>{titles[6]}</Card.Title>
-            <Card.Text>{descriptions[6]}</Card.Text>
-          </Card.Body>
-        </Card>
-        <Card>
-          <Card.Img
-            variant="top"
-            src={images[7]}
-            style={{ objectFit: "cover", height: "200px" }}
-          />
-          <Card.Body>
-            <Card.Title>{titles[7]}</Card.Title>
-            <Card.Text>{descriptions[7]}</Card.Text>
-          </Card.Body>
-        </Card>
+      <Card onClick={() => handleClick("meditation")}>
+        <Card.Img
+          variant="top"
+          src={images[2]}
+          style={{ objectFit: "cover", height: "200px" }}
+        />
+        <Card.Body>
+          <Card.Title>{titles[2]}</Card.Title>
+          <Card.Text>{descriptions[2]}</Card.Text>
+        </Card.Body>
+      </Card>
+      <Card onClick={() => handleClick("craniosacral_therapy")}>
+        <Card.Img
+          variant="top"
+          src={images[3]}
+          style={{ objectFit: "cover", height: "200px" }}
+        />
+        <Card.Body>
+          <Card.Title>{titles[3]}</Card.Title>
+          <Card.Text>{descriptions[3]}</Card.Text>
+        </Card.Body>
+      </Card>
+      <Card onClick={() => handleClick("reiki_seichem")}>
+        <Card.Img
+          variant="top"
+          src={images[4]}
+          style={{ objectFit: "cover", height: "200px" }}
+        />
+        <Card.Body>
+          <Card.Title>{titles[4]}</Card.Title>
+          <Card.Text>{descriptions[4]}</Card.Text>
+        </Card.Body>
+      </Card>
+      <Card onClick={() => handleClick("life_coaching")}>
+        <Card.Img
+          variant="top"
+          src={images[5]}
+          style={{ objectFit: "cover", height: "200px" }}
+        />
+        <Card.Body>
+          <Card.Title>{titles[5]}</Card.Title>
+          <Card.Text>{descriptions[5]}</Card.Text>
+        </Card.Body>
+      </Card>
+      <Card onClick={() => handleClick("nutritional_therapy")}>
+        <Card.Img
+          variant="top"
+          src={images[6]}
+          style={{ objectFit: "cover", height: "200px" }}
+        />
+        <Card.Body>
+          <Card.Title>{titles[6]}</Card.Title>
+          <Card.Text>{descriptions[6]}</Card.Text>
+        </Card.Body>
+      </Card>
+      <Card onClick={() => handleClick("somato_emotional_release")}>
+        <Card.Img
+          variant="top"
+          src={images[7]}
+          style={{ objectFit: "cover", height: "200px" }}
+        />
+        <Card.Body>
+          <Card.Title>{titles[7]}</Card.Title>
+          <Card.Text>{descriptions[7]}</Card.Text>
+        </Card.Body>
+      </Card>
     </div>
   );
 };
 
-export default AllTreatmentsHome;
+export default AllTreatmentsPage;

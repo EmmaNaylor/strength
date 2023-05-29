@@ -3,6 +3,7 @@ import strengthLogo from "../../assets/strengthLogo.png";
 import BookingButton from "../BookingButton";
 import "../../styles/treatments.css";
 import VitaminAccordion from "./VitaminAccordion";
+import IVAccordion from "./IVAccordion";
 
 const IVTherapy = () => {
   return (
@@ -30,8 +31,8 @@ const IVTherapy = () => {
           These IV infusions have been created by Dr Vincent Wong, Global
           Aesthetic leader, for assisting with :
         </p>
-        <div className="condition-grid">
-          <ul className="condition-list">
+        <div className="condition-grid-solo">
+          <ul className="condition-list-solo">
             <li className="condition-item">Anti-Aging</li>
             <li className="condition-item">Skin lightening and brightening</li>
             <li className="condition-item">Wellness</li>
@@ -92,58 +93,7 @@ const IVTherapy = () => {
           cells. Levels decrease as a result of aging, stress, lack of sleep and
           toxin exposure.
         </p>
-        <div className="flex-wrapper">
-          <div className="flex-wrapper-inner">
-            <h3 className="treatment-heading">Role of Glutathione</h3>
-            <p className="treatment-text-2">
-              Glutathione has many important functions in the body, including:
-            </p>
-
-            <div className="condition-grid">
-              <ul className="condition-list">
-                <li className="condition-item">
-                  Making DNA, the building blocks of proteins and cells
-                </li>
-                <li className="condition-item">Supporting immune function</li>
-                <li className="condition-item">
-                  Helping in the formation of sperm cells
-                </li>
-                <li className="condition-item">
-                  Breaking down some free radicals
-                </li>
-                <li className="condition-item">
-                  Benefitting the functioning of some enzymes
-                </li>
-                <li className="condition-item">
-                  Transportation of mercury out of the brain
-                </li>
-                <li className="condition-item">
-                  Helping the liver and gallbladder detoxify and emulsify fats.s
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="flex-wrapper-inner">
-            <h3 className="treatment-heading">Benefits</h3>
-            <p className="treatment-text-2">The main benefits include:</p>
-
-            <div className="condition-grid">
-              <ul className="condition-list">
-                <li className="condition-item">
-                  Improved protein, enzyme, and bilirubin levels in the blood.
-                </li>
-                <li className="condition-item">
-                  Reduces oxidative stress by either stimulating or reducing the
-                  body’s immunological response.
-                </li>
-                <li className="condition-item">
-                  Glutathione works to protect cell mitochondria by eliminating
-                  free radicals.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        <IVAccordion />
       </section>
       <BookingButton />
     </div>

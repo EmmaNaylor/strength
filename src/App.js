@@ -1,6 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import {
+  BrowserRouter,
+  Route,
+  Routes,
+  Navigate,
+  Router,
+  Switch,
+} from "react-router-dom";
 import Navigation from "./components/nav2";
 import HeaderBar from "./components/HeaderBar";
 import Footer from "./components/Footer";
@@ -10,12 +17,35 @@ import About from "./pages/About";
 import Testimonials from "./pages/Testimonials";
 import Contact from "./pages/Contact";
 import "./app.css";
+import styled from "styled-components";
+
+import Sidebar from "./components/Sidebar";
+
+const DesktopWrapper = styled.div`
+  display: none;
+  @media screen and (min-width: 960px) {
+    display: inline-block;
+  }
+`;
+
+const MobileWrapper = styled.div`
+  display: none;
+  @media screen and (max-width: 959px) {
+    display: block;
+  }
+`;
+
 function App() {
   return (
     <div className="App">
-      {/* <HeaderBar /> */}
-      <Navigation />
+      <HeaderBar />
+      <MobileWrapper>
+        <Navigation />
+      </MobileWrapper>
       <BrowserRouter>
+        <DesktopWrapper>
+          <Sidebar />
+        </DesktopWrapper>
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<Home />} />

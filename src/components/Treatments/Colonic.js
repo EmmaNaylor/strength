@@ -27,7 +27,7 @@ const Colonic = () => {
           Why should I have Colonic Hydrotherapy?
         </h3>
         <div className="condition-grid">
-          <ul className="condition-list">
+          <ul className="condition-list-solo">
             <li className="condition-item">Hydrates the large colon</li>
             <li className="condition-item">
               Cleanses the colon of old hard waste material and harmful toxins
@@ -91,7 +91,7 @@ const Colonic = () => {
         </p>
         <h3 className="treatment-heading">Preparation for treatment</h3>
         <div className="condition-grid">
-          <ul className="condition-list">
+          <ul className="condition-list-solo">
             <li className="condition-item">
               Try to drink at least 2 to 3 litres of water per day for the week
               before your treatment
@@ -111,7 +111,7 @@ const Colonic = () => {
         </div>
         <h3 className="treatment-heading">The Treatment</h3>
         <div className="condition-grid">
-          <ul className="condition-list">
+          <ul className="condition-list-solo">
             <li className="condition-item">
               Your practitioner will check through your consent forms and
               medical history.

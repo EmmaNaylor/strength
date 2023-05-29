@@ -58,11 +58,11 @@ const VitaminAccordion = () => {
       </Accordion.Item>
       <Accordion.Item eventKey="2">
         <Accordion.Header>Contraindications</Accordion.Header>
-        <Accordion.Body>
+          <Accordion.Body>
           <p className="treatment-text-2">
             You must not have this treatment if you have:
           </p>
-          <div className="treatment-grid">
+          <div className="condition-grid">
             <ul className="condition-list">
               <li className="condition-item">High blood pressure</li>
               <li className="condition-item">Congestive heart failure</li>

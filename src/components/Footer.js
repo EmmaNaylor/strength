@@ -16,7 +16,7 @@ const Footer = () => {
           wellness and are not cures for conditions.
         </p>
       </div>
-      <div className="footer-background">
+      {/* <div className="footer-background">
         <div className="flex">
           <div className="footer-bar">
             <img className="logos" src={phone} />
@@ -41,7 +41,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
