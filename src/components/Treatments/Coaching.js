@@ -2,6 +2,8 @@ import React from "react";
 import strengthLogo from "../../assets/strengthLogo.png";
 import coach from "../../assets/lifecoach.jpg";
 import coach2 from "../../assets/lifecoach-2.jpg";
+import goals from "../../assets/goals.jpeg"
+import juice from "../../assets/green-juice.jpeg"
 import beach from "../../assets/beach.jpg";
 import "../../styles/treatments.css";
 import styled from "styled-components";
@@ -33,14 +35,14 @@ const Coaching = () => {
         </p>
       </section>
       <div className="small-image-container">
-        <img className="treatment-image" src={coach} />
+        <img className="treatment-image" src={juice} />
       </div>
       <div className="small-image-container">
-        <img className="treatment-image" src={coach2} />
+        <img className="treatment-image" src={coach} />
       </div>
       <DesktopWrapper>
         <div className="small-image-container">
-          <img className="treatment-image" src={coach} />
+          <img className="treatment-image" src={coach2} />
         </div>
       </DesktopWrapper>
       <section className="treatment-section">
@@ -120,7 +122,15 @@ const Coaching = () => {
           the changes you want to make.
         </p>
       </section>
+      <div className="treatment-separator"></div>
+        <h3 className="treatment-heading">
+          How do I book my session with you?
+        </h3>
+        <p className="treatment-text">
+          Use our Contact form to book a session with me.
+      </p>
       <BookingButton />
+        <div className="treatment-separator"></div>
     </div>
   );
 };

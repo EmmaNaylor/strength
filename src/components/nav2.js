@@ -8,14 +8,14 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import logo from "../assets/smallStrength.png";
 import "../styles/home.css";
 
-function OffcanvasExample() {
+const Navigation = () => {
   const expand = false;
   return (
     <div className="nav-surround">
-        <Navbar key={expand} bg="light" expand={expand} className="mb-3">
+      <Navbar key={expand} expand={expand} className="mb-3" style={{ backgroundColor: '#036c7b' }} >
           <Container fluid>
-            <Navbar.Brand href="#"><img src={logo} /></Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+          <Navbar.Brand href="#"><img src={logo} /></Navbar.Brand>
+          <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
@@ -27,46 +27,47 @@ function OffcanvasExample() {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <NavDropdown
+                <Nav className="justify-content-end flex-grow-1 flex-shrink-1 pe-3">
+                  <Nav.Link href="/home" style={{color: 'white' }}>Home</Nav.Link>
+                <Nav.Link href="/about" style={{color: 'white' }}>About</Nav.Link>
+                <NavDropdown
                     title="Treatments"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
+                    
                   >
-                    <NavDropdown.Item href="/services/all_treatments">
+                    <NavDropdown.Item href="/services/all_treatments" style={{color: 'white', backgroundColor: '#036c7b' }}>
                       All Treatments
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/services/iv_nutrient_therapy">
+                    <NavDropdown.Item href="/services/iv_nutrient_therapy" style={{color: 'white', backgroundColor: '#036c7b' }}>
                       IV Nutrient Therapy
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/services/colonic_hydrotherapy">
+                    <NavDropdown.Item href="/services/colonic_hydrotherapy" style={{color: 'white', backgroundColor: '#036c7b' }}>
                       Colonic Hydrotherapy
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/services/tympa" style={{color: 'white', backgroundColor: '#036c7b' }}>
+                      Tympa Hearing Treatment
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/services/craniosacral_therapy">
+                    <NavDropdown.Item href="/services/craniosacral_therapy" style={{color: 'white', backgroundColor: '#036c7b' }}>
                       Craniosacral Therapy
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/services/somato_emotional_release">
+                    <NavDropdown.Item href="/services/somato_emotional_release" style={{color: 'white', backgroundColor: '#036c7b' }}>
                       Somato Emotional Release
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/services/life_coaching">
+                    <NavDropdown.Item href="/services/life_coaching" style={{color: 'white', backgroundColor: '#036c7b' }}>
                       Life Coaching
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/services/nutritional_therapy">
+                    <NavDropdown.Item href="/services/nutritional_therapy" style={{color: 'white', backgroundColor: '#036c7b' }}>
                       Nutritional Therapy
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/services/meditation">
+                    <NavDropdown.Item href="/services/meditation" style={{color: 'white', backgroundColor: '#036c7b' }}>
                       Meditation
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/services/reiki_seichem">
+                    <NavDropdown.Item href="/services/reiki_seichem" style={{color: 'white', backgroundColor: '#036c7b' }}>
                       Reiki and Seichem
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/services/massage_therapy">
-                      Massage Therapy
-                    </NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link href="/home">Home</Nav.Link>
-                  <Nav.Link href="/about">About</Nav.Link>
-                  <Nav.Link href="/testimonials">Testimonials</Nav.Link>
-                  <Nav.Link href="/contact">Contact Me</Nav.Link>
+                  <Nav.Link href="/testimonials" style={{color: 'white' }}>Testimonials</Nav.Link>
+                  <Nav.Link href="/contact" style={{color: 'white' }}>Contact Me</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
@@ -76,4 +77,4 @@ function OffcanvasExample() {
   );
 }
 
-export default OffcanvasExample;
+export default Navigation;

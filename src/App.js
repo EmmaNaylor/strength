@@ -38,12 +38,12 @@ const MobileWrapper = styled.div`
 function App() {
   return (
     <div className="App">
-      <HeaderBar />
       <MobileWrapper>
         <Navigation />
       </MobileWrapper>
       <BrowserRouter>
         <DesktopWrapper>
+        <HeaderBar />
           <Sidebar />
         </DesktopWrapper>
         <Routes>

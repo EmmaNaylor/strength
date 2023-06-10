@@ -48,7 +48,7 @@ a:active {
 .disclaimer{
   /* padding-left: 300px; */
   padding-top: 20px;
-  width: 95%;
+  width: 80%;
   margin: auto;
   margin-bottom: 50px;
   text-align: center;
@@ -56,10 +56,6 @@ a:active {
 }
 
 @media screen and (min-device-width: 620px) {
-
-  .disclaimer {
-    padding-left: 300px;
-  }
 }
 @media only screen and (min-device-width: 960px) {
   .footer-text {
@@ -68,6 +64,7 @@ a:active {
   .disclaimer{
     padding-top: 60px;
     width: 70%;
+    padding-left: 300px;
   }
 }
 @media only screen and (min-device-width: 1200px) {

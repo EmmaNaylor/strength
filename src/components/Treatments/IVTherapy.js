@@ -95,7 +95,15 @@ const IVTherapy = () => {
         </p>
         <IVAccordion />
       </section>
+      <div className="treatment-separator"></div>
+        <h3 className="treatment-heading">
+          How do I book my session with you?
+        </h3>
+        <p className="treatment-text">
+          Use our Contact form to book a session with me.
+      </p>
       <BookingButton />
+        <div className="treatment-separator"></div>
     </div>
   );
 };

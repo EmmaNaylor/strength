@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import strengthLogo from "../../assets/strengthLogo.png";
-import somato from "../../assets/somato.jpg";
+import somato from "../../assets/jacky-somato.jpeg";
 import somato2 from "../../assets/somato-2.jpg";
 import somato3 from "../../assets/somato-3.jpg";
 import somato4 from "../../assets/somato-4.jpg";
@@ -27,8 +27,8 @@ const Somato = () => {
           more deceptive, appearing as decreased immune function, anxiety,
           fatigue or physiological dysfunction.
         </p>
-        <div className="small-image-container">
-          <img className="treatment-image" src={somato} />
+        <div className="phone-image-container-landscape">
+          <img className="wide-treatment-image" src={somato} />
         </div>
         <p className="treatment-text">
           There is vast research to show that a change in physical health is
@@ -56,7 +56,7 @@ const Somato = () => {
           muscle group is injured through a physical trauma; a memory of that
           trauma is stored in the affected tissue.
         </p>
-        <div className="wide-image-container">
+        <div className="phone-image-container-landscape">
           <img className="wide-treatment-image" src={somato2} />
         </div>
         <p className="treatment-text">
@@ -81,7 +81,7 @@ const Somato = () => {
           we are not quite ready to heal. This is common and is a protective
           factor.
         </p>
-        <div className="wide-image-container">
+        <div className="phone-image-container-landscape">
           <img className="wide-treatment-image" src={somato3} />
         </div>
         <p className="treatment-text">
@@ -92,7 +92,7 @@ const Somato = () => {
           involving the whole body as in the need to sit up or turn over or
           contort.
         </p>
-        <div className="wide-image-container">
+        <div className="phone-image-container-landscape">
           <img className="wide-treatment-image" src={somato4} />
         </div>
         <p className="treatment-text">
@@ -127,7 +127,15 @@ const Somato = () => {
           necessarily for everyone.
         </p>
       </section>
-      <BookingButton/>
+      <div className="treatment-separator"></div>
+        <h3 className="treatment-heading">
+          How do I book my session with you?
+        </h3>
+        <p className="treatment-text">
+          Use our Contact form to book a session with me.
+      </p>
+      <BookingButton />
+        <div className="treatment-separator"></div>
     </div>
   );
 };

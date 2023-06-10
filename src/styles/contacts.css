@@ -1,6 +1,7 @@
 .outer-form {
   width: 80%;
   margin: auto;
+  margin-bottom: 30px;
   /* padding-left: 300px; */
   /* padding-top: 100px; */
 }
@@ -48,15 +49,11 @@
     margin-top: 15px;
     width: 20%;
   }
-
-  .outer-form {
-    padding-left: 300px;
-    padding-top: 100px;
-  }
 }
 @media only screen and (min-device-width: 960px) {
   .outer-form {
-    /* width: 60%; */
+    padding-left: 300px;
+    padding-top: 100px;
     margin: auto;
   }
   .form-label {

@@ -28,7 +28,7 @@ const Meditation = () => {
       </section>
       <div className="treatment-separator"></div>
       <section className="treatment-section">
-        <div className="wide-image-container">
+        <div className="wide-image-container-mediation">
           <img className="wide-treatment-image" src={meditation} />
         </div>
         <h3 className="treatment-heading">What is Meditation?</h3>
@@ -70,7 +70,15 @@ const Meditation = () => {
           illnesses.
         </p>
       </section>
+      <div className="treatment-separator"></div>
+        <h3 className="treatment-heading">
+          How do I book my session with you?
+        </h3>
+        <p className="treatment-text">
+          Use our Contact form to book a session with me.
+      </p>
       <BookingButton />
+        <div className="treatment-separator"></div>
     </div>
   );
 };

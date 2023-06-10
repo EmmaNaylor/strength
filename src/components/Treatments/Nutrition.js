@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import strengthLogo from "../../assets/strengthLogo.png";
-import nutrition from "../../assets/nutrition-long.jpg";
+import nutrition from "../../assets/green-juice.jpeg";
 import BookingButton from "../BookingButton";
 import "../../styles/treatments.css";
 
@@ -43,14 +43,24 @@ const Nutrition = () => {
             programme for you to follow.
           </i>
         </p>
+        <div className="phone-image-container-landscape">
+        <img className="wide-treatment-image" src={nutrition} />
+        </div>
         <div className="treatment-separator"></div>
         <h3 className="treatment-heading">Health Coach</h3>
         <p className="treatment-text">
           Book your individual consultation using my contact form
         </p>
       </section>
+      <div className="treatment-separator"></div>
+        <h3 className="treatment-heading">
+          How do I book my session with you?
+        </h3>
+        <p className="treatment-text">
+          Use our Contact form to book a session with me.
+      </p>
       <BookingButton />
-      <img className="thin-wide-treatment-image" src={nutrition} />
+      <div className="treatment-separator"></div>
     </div>
   );
 };

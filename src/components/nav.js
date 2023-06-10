@@ -44,12 +44,6 @@ function Navigation() {
               <NavDropdown.Item href="/services/reiki_seichem">
                 Reiki and Seichem
               </NavDropdown.Item>
-              <NavDropdown.Item href="/services/massage_therapy">
-                Massage Therapy
-              </NavDropdown.Item>
-              {/* <NavDropdown.Item href="/services/indian_head_massage">
-                Indian Head Massage
-              </NavDropdown.Item> */}
             </NavDropdown>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/testimonials">Testimonials</Nav.Link>

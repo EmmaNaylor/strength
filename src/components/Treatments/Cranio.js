@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import strengthLogo from "../../assets/strengthLogo.png";
-import cranio from "../../assets/cranio.jpg";
-import cranio3 from "../../assets/cranio_3.jpg";
+import cranio from "../../assets/jacky-cranio-zoom.jpeg";
+import cranio3 from "../../assets/jacky-cranio.jpeg";
 import BookingButton from "../BookingButton";
 import "../../styles/treatments.css";
 
@@ -21,14 +21,11 @@ const Cranio = () => {
           this dynamic and exciting treatment are below. Contact me directly if
           you have any other questions.
         </p>
-      </section>
-      <div className="treatment-separator"></div>
-      <div className="small-image-container">
-        <img className="treatment-image" src={cranio3} />
+      </section>    
+      <div className="phone-image-container-landscape">
+          <img className="wide-treatment-image" src={cranio3} />
       </div>
-      <div className="small-image-container">
-        <img className="treatment-image" src={cranio} />
-      </div>
+      <div className="treatment-separator"></div>  
       <section className="treatment-section">
         <h3 className="treatment-heading">What is the Craniosacral System?</h3>
         <p className="treatment-text">
@@ -64,6 +61,9 @@ const Cranio = () => {
           in areas which are not actually the source of the problem. Your
           session will last up to an hour.
         </p>
+        <div className="phone-image-container-landscape">
+          <img className="wide-treatment-image" src={cranio} />
+      </div>
         <div className="treatment-separator"></div>
         <h3 className="treatment-heading">
           What you might notice during Craniosacral Therapy?

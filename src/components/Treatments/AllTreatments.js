@@ -11,6 +11,7 @@ import colonic from "../../assets/colonic.jpg";
 import lifecoach from "../../assets/lifecoach-2.jpg";
 import nutrition from "../../assets/nutrition.jpg";
 import somato from "../../assets/somato.jpg";
+import tympa from "../../assets/somato.jpg";
 
 const titles = [
   'IV Nutrient Therapy',
@@ -21,6 +22,7 @@ const titles = [
   'Life Coaching',
   'Nutritional Therapy',
   'Somato Emotional Release',
+  "Tympa Hearing Treatment"
 ];
 const descriptions = [
   'IV nutrient therapy is a safe and effective way of administering essential vitamins, minerals and amino acids to your body in a way which helps your body to improve absorption and the uptake of the nutrients',
@@ -31,6 +33,7 @@ const descriptions = [
   "A life coach’s role is to encourage a person in a range of personal or professional issues. The coach inspires the client to make positive and lasting changes in a solution focused approach to personal development, and they themselves are the facilitators of change",
   "As a Clinical Nutritional Therapist Jacky can help you to plan a new lifestyle. This will include healthy eating and hydration to support all of your nutritional needs",
   "In SER we discover and release the adverse effects of past distresses from mind and body and facilitate the realisation of their effects",
+  "The Tympa system allows you to perform: a high-definition digital otoscopy, microsuction wax removal, and carry out a hearing screening, all in a single 30-minute appointment"
 ];
 
 const images = [
@@ -42,6 +45,7 @@ const images = [
   lifecoach,
   nutrition,
   somato,
+  tympa
 ];
 
 const AllTreatments = () => {

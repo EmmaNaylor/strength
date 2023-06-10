@@ -1,7 +1,7 @@
 import React from "react";
 import strengthLogo from "../../assets/strengthLogo.png";
-import cranio from "../../assets/cranio.jpg";
-import cranio3 from "../../assets/cranio_3.jpg";
+import colonic from '../../assets/jacky-colonic.jpeg'
+import machine from '../../assets/colonic-machine.jpeg'
 import BookingButton from "../BookingButton";
 import "../../styles/treatments.css";
 import ColonicAccordion from "./VitaminAccordion";
@@ -22,6 +22,9 @@ const Colonic = () => {
           improving bowel function, improving wellbeing and natural immunity.
         </p>
       </section>
+      <div className="phone-image-container-landscape">
+          <img className="wide-treatment-image" src={colonic} />
+        </div>
       <section className="treatment-section">
         <h3 className="treatment-heading">
           Why should I have Colonic Hydrotherapy?
@@ -153,9 +156,20 @@ const Colonic = () => {
             </li>
           </ul>
         </div>
+        <div className="phone-image-container">
+          <img className="wide-treatment-image" src={machine} />
+        </div>
         <ColonicAccordion />
       </section>
+      <div className="treatment-separator"></div>
+        <h3 className="treatment-heading">
+          How do I book my session with you?
+        </h3>
+        <p className="treatment-text">
+          Use our Contact form to book a session with me.
+      </p>
       <BookingButton />
+        <div className="treatment-separator"></div>
     </div>
   );
 };

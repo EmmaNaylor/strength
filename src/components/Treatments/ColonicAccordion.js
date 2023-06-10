@@ -9,7 +9,7 @@ const ColonicAccordion = () => {
       <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header style={{ color: "#036c7b" }}>
-            Treatment Advicey
+            Treatment Advice
           </Accordion.Header>
           <Accordion.Body>
             <div className="flex-wrapper-inner">

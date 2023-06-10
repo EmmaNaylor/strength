@@ -32,6 +32,11 @@ export const SidebarData = [
         path: '/services/colonic_hydrotherapy',
         icon: <MdOutlineMedication />,
         cName: 'sub-nav'
+      },      {
+        title: 'Tympa Hearing Treatment',
+        path: '/services/tympa',
+        icon: <MdOutlineMedication />,
+        cName: 'sub-nav'
       },
       {
         title: 'Craniosacral Therapy',
