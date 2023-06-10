@@ -12,10 +12,10 @@ const Meditation = () => {
       <section className="treatment-section">
         <h3 className="treatment-heading">Meditation</h3>
         <p className="treatment-text">
-          My meditation classes can be guided one to one or with a group,
-          informing how to engage in a mental exercise to focus your attention
+          My meditation classes can be guided one to one or with a group. I will
+          inform you how to engage in a mental exercise to focus your attention
           and intentions to attain a heightened level of awareness to properly
-          relax and close yourself off from the every day stresses that may
+          relax and close yourself off from the everyday stresses that may
           affect you.
         </p>
         <p className="treatment-text">
@@ -23,14 +23,14 @@ const Meditation = () => {
           the specific group), for those not used to meditation the sessions
           will be shorter. All sessions start with relaxational breathing. If
           you wish to discuss your feelings after each session this can be
-          scheduled into the time spent.
+          scheduled into the time.
         </p>
       </section>
-      <div className="treatment-separator"></div>
       <section className="treatment-section">
         <div className="wide-image-container-mediation">
           <img className="wide-treatment-image" src={meditation} />
         </div>
+        <div className="treatment-separator"></div>
         <h3 className="treatment-heading">What is Meditation?</h3>
         <p className="treatment-text">
           Meditation is a very personal experience and is many different things

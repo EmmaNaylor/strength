@@ -23,24 +23,14 @@ const Reiki = () => {
         <h3 className="treatment-heading">Reiki and Seichem Healing</h3>
         <p className="treatment-text">
           Reiki means ‘universal life energy’. A balanced flow of energy is said
-          to provide a sense of wellbeing and spiritual renewal.Those who
+          to provide a sense of wellbeing and spiritual renewal. Those who
           practice Reiki are said to draw upon universal healing energy, Seichem
-          incorporates the energies from the four elements earth air fire and
-          water , which is then transferred to the client by visualisation and
+          incorporates the energies from the four elements earth, air, fire and
+          water, which is then transferred to the client by visualisation and
           intent by gently placing their hands on, or just above the body .
         </p>
       </section>
-      <div className="small-image-container">
-        <img className="treatment-image" src={reiki1} />
-      </div>
-      <div className="small-image-container">
-        <img className="treatment-image" src={reiki2} />
-      </div>
-      <DesktopWrapper>
-        <div className="small-image-container">
-          <img className="treatment-image" src={reiki3} />
-        </div>
-      </DesktopWrapper>
+      <div className="treatment-separator"></div>
       <section className="treatment-section">
         <h3 className="treatment-heading">What to Expect</h3>
         <p className="treatment-text">

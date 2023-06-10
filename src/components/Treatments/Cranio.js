@@ -11,10 +11,10 @@ const Cranio = () => {
     <div className="outer-treatments">
       <img className="main-logo-treatments" src={strengthLogo} />
       <section className="treatment-section">
-        <h3 className="treatment-heading">Craniosacral Therapy</h3>
+        <h3 className="treatment-heading">CranioSacral Therapy</h3>
         <p className="treatment-text">
           I am very proud to be one of few practitioners in the region able to
-          offer craniosacral therapy to my clients. Craniosacral Therapy is a
+          offer CranioSacral therapy to my clients. CranioSacral Therapy is a
           type of body work that can create dynamic improvements in your life.
           It helps to relieve pain and dysfunction improving whole-body health
           and performance. Answers to my most frequently asked questions about
@@ -27,20 +27,20 @@ const Cranio = () => {
       </div>
       <div className="treatment-separator"></div>  
       <section className="treatment-section">
-        <h3 className="treatment-heading">What is the Craniosacral System?</h3>
+        <h3 className="treatment-heading">What is the CranioSacral System?</h3>
         <p className="treatment-text">
-          The craniosacral system consists of the bones, soft tissues, and fluid
+          The CranioSacral system consists of the bones, soft tissues, and fluid
           that surround the brain and spinal cord.
         </p>
         <div className="treatment-separator"></div>
         <h3 className="treatment-heading">
-          How can Craniosacral Therapy help me?
+          How can CranioSacral Therapy help me?
         </h3>
         <p className="treatment-text">
           Our tissues tighten and change with everyday stresses and strains.
           Other experiences from physical injuries to emotional trauma can
           create or add restrictions, these can radiate out from – or into the
-          craniosacral system and can compromise the central nervous system and
+          CranioSacral system and can compromise the central nervous system and
           the function of other areas of your body. This therapy is a light
           touch that can release tensions to allow the entire body to relax and
           self-correct by freeing the system to perform at its best.
@@ -51,11 +51,11 @@ const Cranio = () => {
         </h3>
         <p className="treatment-text">
           A typical session takes place in a quiet setting, you would remain
-          fully clothed and relax on a comfortable treatment table. We begin by
-          evaluating the rhythm and motion of the craniosacral system before
+          fully clothed and relax on a comfortable treatment couch. We begin by
+          evaluating the rhythm and motion of the CranioSacral system before
           intervention, locating areas of restriction in the body tissues or the
           fluid motion. Delicate, precise and effective manual techniques are
-          then used to release body tissues into any problem areas. While many
+          then used to release the bodies tissues. While many
           techniques are carried out from the head and lower back, we may also
           work on other parts of the body, as sometimes we experience symptoms
           in areas which are not actually the source of the problem. Your
@@ -66,7 +66,7 @@ const Cranio = () => {
       </div>
         <div className="treatment-separator"></div>
         <h3 className="treatment-heading">
-          What you might notice during Craniosacral Therapy?
+          What you might notice during CranioSacral Therapy?
         </h3>
         <p className="treatment-text">
           Your experience of treatment is highly individual and is likely to

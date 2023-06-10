@@ -4,7 +4,7 @@ import coach from "../../assets/lifecoach.jpg";
 import coach2 from "../../assets/lifecoach-2.jpg";
 import goals from "../../assets/goals.jpeg"
 import juice from "../../assets/green-juice.jpeg"
-import beach from "../../assets/beach.jpg";
+import goal from "../../assets/goal-pad.jpg";
 import "../../styles/treatments.css";
 import styled from "styled-components";
 import BookingButton from "../BookingButton";
@@ -21,10 +21,9 @@ const Coaching = () => {
     <div className="outer-treatments">
       <img className="main-logo-treatments" src={strengthLogo} />
       <section className="treatment-section">
-        <h3 className="treatment-heading">Life Coach</h3>
+        <h3 className="treatment-heading">Health Coach</h3>
         <p className="treatment-text">
-          A life coach’s role is to encourage a person in a range of personal or
-          professional issues. The coach inspires the client to make positive
+          The coach inspires the client to make positive
           and lasting changes in a solution focused approach to personal
           development, and they themselves are the facilitators of change. These
           changes can be as large or small as you need.
@@ -34,7 +33,7 @@ const Coaching = () => {
           caring supportive and inspiring environment.
         </p>
       </section>
-      <div className="small-image-container">
+      {/* <div className="small-image-container">
         <img className="treatment-image" src={juice} />
       </div>
       <div className="small-image-container">
@@ -44,9 +43,9 @@ const Coaching = () => {
         <div className="small-image-container">
           <img className="treatment-image" src={coach2} />
         </div>
-      </DesktopWrapper>
-      <section className="treatment-section">
-        <h3 className="treatment-heading">Why you might use a Life Coach</h3>
+      </DesktopWrapper> */}
+      {/* <section className="treatment-section">
+        <h3 className="treatment-heading">Why you might use a Health Coach</h3>
         <div className="condition-grid">
           <ul className="condition-list">
             <li className="condition-item">To help build confidence</li>
@@ -61,16 +60,16 @@ const Coaching = () => {
             </li>
           </ul>
         </div>
-      </section>
-      <div className="wide-image-container">
-        <img className="wide-treatment-image" src={beach} />
+      </section> */}
+      <div className="phone-image-container">
+        <img className="wide-treatment-image" src={goal} />
       </div>
       <p className="treatment-text">
-        The individual (the client) and life coach have a creative partnership
+        The individual (the client) and the coach have a creative partnership
         that pursues to:
       </p>
-      <div className="treatment-grid">
-        <ul className="condition-list">
+      <div className="condition-grid">
+        <ul className="condition-list-solo">
           <li className="condition-item">
             Encourage self-discovery and growth
           </li>
@@ -89,33 +88,17 @@ const Coaching = () => {
         </ul>
       </div>
       <section className="treatment-section">
-        <p className="treatment-text">
-          Life coaching works in a specific structured format. The coach works
-          together with you to formulate a plan. You will ascertain your goals
-          as the basis for this. Once these steps have been taken you will
-          collaborate to identify barriers and limiting beliefs that may have
-          been obstructing you.
-        </p>
-        <p className="treatment-text">
-          The coach will discuss and set challenging but measureable and
-          achievable goals on a regular basis for you to work towards and attain
-          to enable your final goal to be accomplished.
-        </p>
         <div className="treatment-separator"></div>
-        <h3 className="treatment-heading">Health Coach</h3>
         <p className="treatment-text">
           A Health Coach supports people in gaining and using knowledge, skills,
           tools and confidence to become active participants in their own care;
           to enable them to reach their self-identified health and wellbeing
           goals, using evidence based interventions to facilitate and maintain
-          the plans they have set out.
+          the plans they have set out. I firmly believe that nutritional intake, water, exercise, daylight and sleep is the optimum solution for our body’s needs. Clients build new habits and make lasting changes.
         </p>
         <p className="treatment-text">
-          Clients build new habits and make lasting changes.
-        </p>
-        <p className="treatment-text">
-          In the first conference (whether it be face to face, using zoom or
-          over the phone or by email) you will dictate how much interaction you
+          In the first meeting (whether it be face to face, using zoom or
+          over the phone) you will dictate how much interaction you
           want and can alter this at any time. You may feel that face-to-face,
           or using emails is best way of contact for you, or you may feel you
           need a mixture of all methods, You are in control. I will facilitate

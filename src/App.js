@@ -16,21 +16,22 @@ import Services from "./pages/Services";
 import About from "./pages/About";
 import Testimonials from "./pages/Testimonials";
 import Contact from "./pages/Contact";
+import Terms from "./pages/Terms";
 import "./app.css";
 import styled from "styled-components";
 
 import Sidebar from "./components/Sidebar";
 
-const DesktopWrapper = styled.div`
+const MobileWrapper = styled.div`
   display: none;
-  @media screen and (min-width: 960px) {
-    display: inline-block;
+  @media screen and (max-width: 1199px) {
+    display: block;
   }
 `;
 
-const MobileWrapper = styled.div`
+const DesktopWrapper = styled.div`
   display: none;
-  @media screen and (max-width: 959px) {
+  @media screen and (min-width: 1200px) {
     display: block;
   }
 `;
@@ -54,6 +55,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/terms" element={<Terms />} />
         </Routes>
       </BrowserRouter>
       <Footer />

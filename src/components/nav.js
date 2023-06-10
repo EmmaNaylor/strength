@@ -27,7 +27,7 @@ function Navigation() {
                 Colonic Hydrotherapy
               </NavDropdown.Item>
               <NavDropdown.Item href="/services/craniosacral_therapy">
-                Craniosacral Therapy
+                CranioSacral Therapy
               </NavDropdown.Item>
               <NavDropdown.Item href="/services/somato_emotional_release">
                 Somato Emotional Release

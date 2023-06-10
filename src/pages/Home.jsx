@@ -9,14 +9,14 @@ import styled from "styled-components";
 
 const MobileWrapper = styled.div`
   display: none;
-  @media screen and (max-width: 619px) {
+  @media screen and (max-width: 1199px) {
     display: block;
   }
 `;
 
 const DesktopWrapper = styled.div`
   display: none;
-  @media screen and (min-width: 620px) {
+  @media screen and (min-width: 1200px) {
     display: block;
   }
 `;
@@ -29,7 +29,7 @@ const Home = () => {
         <h3 className="welcome">Welcome to A Strength In You</h3>
         <p className="welcome-text">
           A Holistic Practice for your Wellness in Darlington, incorporating
-          North Yorkshire, and Teesside.
+          North Yorkshire, and Teesside. <a href="https://www.healthcentre.org.uk" target="_blank" className="health-registered">UK Health Centre<br /> registered</a>
         </p>
         <div className="treatment-separator"></div>
         <h3 className="main-heading">Conditions We Treat</h3>
@@ -46,11 +46,7 @@ const Home = () => {
           <ConditionsLargerScreen />
         </DesktopWrapper>
         <p className="welcome-text">
-          It is discussed in the NICE guidelines how complementary therapies can
-          assist in the treatment of chronic or life-limiting conditions such as
-          fibromyalgia, multiple sclerosis, mental health problems (i.e. mild
-          depression and anxiety) weight problems, musculoskeletal problems, or
-          a history of substance misuse (including alcohol and drugs).
+        It is discussed in the NICE guidelines how complementary therapies can assist in the treatment of chronic or life-limiting conditions such as fibromyalgia, multiple sclerosis, mental health problems (i.e. mild depression and anxiety) weight concerns and musculoskeletal problems.
         </p>
         <h3 className="main-heading">Available Treatments</h3>
       </section>

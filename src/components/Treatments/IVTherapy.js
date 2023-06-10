@@ -13,23 +13,19 @@ const IVTherapy = () => {
         <h3 className="treatment-heading">IV Nutrient Therapy</h3>
         <p className="treatment-text">
           IV nutrient therapy is a safe and effective way of administering
-          essential vitamins, minerals and amino acids to your body in a way
+          essential vitamins, minerals and amino acids to your body, in a way
           which helps your body to improve absorption and the uptake of the
-          nutrients. IV therapy is scientifically proven to deliver an improved
-          sense of wellbeing and support to the body.
+          nutrients. Being Intravenous (IV), a cannular is inserted directly into a vein. This enables the nutrients in
+the drip to reach the bodies tissues faster than by absorption of a supplement or food ingested
+into the stomach.
         </p>
       </section>
+      <div className="treatment-separator"></div>
       <section className="treatment-section">
         <h3 className="treatment-heading">Benefits</h3>
         <p className="treatment-text">
-          Using intravenous nutrition therapy the nutrients are delivered
-          directly to the bloodstream by a cannula to assist with the body’s own
-          processes of healing itself.
-        </p>
-        {/* <div className="treatment-separator"></div> */}
-        <p className="treatment-text-2">
           These IV infusions have been created by Dr Vincent Wong, Global
-          Aesthetic leader, for assisting with :
+          Aesthetic leader, for assisting with:
         </p>
         <div className="condition-grid-solo">
           <ul className="condition-list-solo">
@@ -70,12 +66,8 @@ const IVTherapy = () => {
         <p className="treatment-text">
           Glutathione is an antioxidant produced in cells. It is mainly
           comprised of the three amino acids: (glutamine, glycine, and
-          cysteine)in addition to it being produced naturally by the body, and
+          cysteine) in addition to it being produced naturally by the body, and
           ingested in foods.
-        </p>
-        <p className="treatment-text">
-          We must be aware, the cooking and processing of foods can reduce their
-          health benefits massively, hence the need for supplements.
         </p>
         <p className="treatment-text">
           In addition to being produced naturally by the body, and ingested in

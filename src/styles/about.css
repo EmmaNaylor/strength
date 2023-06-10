@@ -1,14 +1,14 @@
 .outer-about {
   width: 80%;
   margin: auto;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   /* padding-left: 300px; */
   /* padding-top: 100px; */
 }
 .main-logo-about {
   margin: auto;
   display: block;
-  max-width: 80vw;
+  max-width: 80%;
 }
 
 .main-heading-about {
@@ -20,7 +20,7 @@
 
 .about-text {
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 30px;
 }
 
@@ -29,49 +29,50 @@
   text-align: center;
 }
 
+/* fullsize is 464 x 633 */
+
+/* 30% size */
 .jacky-image {
   margin: auto;
   margin-bottom: 20px;
-  height: 200px;
-  width: 150px;
+  width: 162px;
+  height: 222px;
   padding: 10px;
   display: inline-block;
 }
 
 @media screen and (min-device-width: 620px) {
-  .jacky-image {
-    margin-bottom: 20px;
-    height: 250px;
-    width: 200px;
+  .about-text {
+    font-size: 18px;
+    margin-top: 30px;
   }
 
-  .about-text {
-    margin-top: 30px;
+  .jacky-image {
+    margin-bottom: 20px;
+    width: 185.6px;
+    height: 253.2px;
   }
 }
 @media only screen and (min-device-width: 960px) {
-
-  .outer-about {
-    padding-left: 300px;
-    padding-top: 100px;
-  }
-  
-  .jacky-image {
-    height: 300px;
-    width: 250px;
-  }
   .about-section {
     width: 80%;
     margin: auto;
   }
 }
 @media only screen and (min-device-width: 1200px) {
+  .outer-about {
+    padding-left: 300px;
+    padding-top: 100px;
+  }
+
   .jacky-image {
-    height: 400px;
-    width: 350px;
+    margin-bottom: 20px;
+    width: 232px;
+    height: 316px;
   }
   .about-section {
-    width: 65%;
+    width: 90%;
+    max-width: 700px;
     margin: auto;
   }
 }

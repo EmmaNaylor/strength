@@ -67,15 +67,6 @@ const IndianHeadMassage = () => {
         </div>
         <div className="treatment-separator"></div>
       </section>
-      <section className="treatment-section">
-        <p className="treatment-text">
-          It is discussed in the NICE guidelines how complementary therapies can
-          assist in the treatment of chronic or life-limiting conditions such as
-          fibromyalgia, multiple sclerosis, mental health problems (i.e. mild
-          depression and anxiety) weight problems, musculoskeletal problems, or
-          a history of substance misuse (including alcohol and drugs).
-        </p>
-      </section>
       <BookingButton />
     </div>
   );

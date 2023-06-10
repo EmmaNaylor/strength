@@ -61,7 +61,7 @@ function ConditionCarousel() {
         <img className="d-block w-100" src={cranio} alt="First slide" />
         <Carousel.Caption>
           <div className="backing">
-            <h3 className="treatment-carousel-item">Craniosacral Therapy</h3>
+            <h3 className="treatment-carousel-item">CranioSacral Therapy</h3>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -69,7 +69,7 @@ function ConditionCarousel() {
         <img className="d-block w-100" src={nutrition} alt="First slide" />
         <Carousel.Caption>
           <div className="backing">
-            <h3 className="treatment-carousel-item">Nutritional Therapy</h3>
+            <h3 className="treatment-carousel-item">Nutritional Assessment and Guidance</h3>
           </div>
         </Carousel.Caption>
       </Carousel.Item>

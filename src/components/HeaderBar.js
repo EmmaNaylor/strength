@@ -17,7 +17,7 @@ const HeaderBar = () => {
           <MdEmail />
         </a>
         <a href="mailto:astrengthinyou@gmail.com" target="_blank">
-          <span className="header-text">astrengthinyou@gmail.com</span>
+          <span className="header-text-email">astrengthinyou@gmail.com</span>
         </a>
         <a href="https://www.facebook.com/astrengthinyou" target="_blank">
           <img

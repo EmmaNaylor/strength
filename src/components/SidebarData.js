@@ -39,7 +39,7 @@ export const SidebarData = [
         cName: 'sub-nav'
       },
       {
-        title: 'Craniosacral Therapy',
+        title: 'CranioSacral Therapy',
         path: '/services/craniosacral_therapy',
         icon: <MdOutlineMedication />,
       },
@@ -49,12 +49,12 @@ export const SidebarData = [
         icon: <MdOutlineMedication />,
       },
       {
-        title: 'Life Coaching',
-        path: '/services/life_coaching',
+        title: 'Health Coaching',
+        path: '/services/health_coaching',
         icon: <MdOutlineMedication />,
       },
       {
-        title: 'Nutritional Therapy',
+        title: 'Nutritional Assessment and Guidance',
         path: '/services/nutritional_therapy',
         icon: <MdOutlineMedication />,
       },
@@ -83,6 +83,14 @@ export const SidebarData = [
   {
     title: 'Contact Me',
     path: '/contact',
+    icon: <FaIcons.FaEnvelopeOpenText />,
+
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
+  },
+  {
+    title: 'Terms and Conditions',
+    path: '/terms',
     icon: <FaIcons.FaEnvelopeOpenText />,
 
     iconClosed: <RiIcons.RiArrowDownSFill />,

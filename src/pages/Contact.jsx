@@ -53,7 +53,7 @@ const Contact = () => {
         >
           <Form.Label>Your Message</Form.Label>
           <textarea
-            class="form-control"
+            className="form-control"
             id="exampleFormControlTextarea1"
             rows="3"
             placeholder="Please let us know why you're getting in contact with us today"

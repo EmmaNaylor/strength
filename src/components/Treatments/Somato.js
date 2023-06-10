@@ -19,7 +19,7 @@ const Somato = () => {
           retain, isolate and suppress negative emotional energy and the
           physical force of an injury rather than dissipating it. They developed
           a system to assist the body to release energy. SomatoEmotional release
-          (SER) is the therapeutic process used with Craniosacral Therapy to
+          (SER) is the therapeutic process used with CranioSacral Therapy to
           release the emotional energy involving dialogue and touch. Over a
           period of time pain, emotional disturbances and physical dysfunction
           can occur within the body and these blockages of energy, known as
@@ -56,7 +56,7 @@ const Somato = () => {
           muscle group is injured through a physical trauma; a memory of that
           trauma is stored in the affected tissue.
         </p>
-        <div className="phone-image-container-landscape">
+        <div className="trees-image-container">
           <img className="wide-treatment-image" src={somato2} />
         </div>
         <p className="treatment-text">
@@ -81,9 +81,9 @@ const Somato = () => {
           we are not quite ready to heal. This is common and is a protective
           factor.
         </p>
-        <div className="phone-image-container-landscape">
+        {/* <div className="phone-image-container-landscape">
           <img className="wide-treatment-image" src={somato3} />
-        </div>
+        </div> */}
         <p className="treatment-text">
           When ready, the body will release and the patient may feel the need to
           move. This can happen spontaneously and without thought. This movement
@@ -92,12 +92,12 @@ const Somato = () => {
           involving the whole body as in the need to sit up or turn over or
           contort.
         </p>
-        <div className="phone-image-container-landscape">
+        {/* <div className="phone-image-container-landscape">
           <img className="wide-treatment-image" src={somato4} />
-        </div>
+        </div> */}
         <p className="treatment-text">
           The therapist supports the movement by neutralising gravity and paying
-          attention to the craniosacral rhythm.
+          attention to the CranioSacral rhythm.
         </p>
         <p className="treatment-text">
           When the energy from a cyst is discharged the patient may experience

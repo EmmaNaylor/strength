@@ -17,10 +17,10 @@ const titles = [
   'IV Nutrient Therapy',
   'Colonic Hydrotherapy',
   'Meditation',
-  'Craniosacral Therapy',
+  'CranioSacral Therapy',
   'Reiki and Seichem Healing',
-  'Life Coaching',
-  'Nutritional Therapy',
+  'Health Coaching',
+  'Nutritional Assessment and Guidance',
   'Somato Emotional Release',
   "Tympa Hearing Treatment"
 ];
@@ -28,7 +28,7 @@ const descriptions = [
   'IV nutrient therapy is a safe and effective way of administering essential vitamins, minerals and amino acids to your body in a way which helps your body to improve absorption and the uptake of the nutrients',
   'Colonic hydrotherapy is a gentle, safe and effective method to cleanse and remove accumulated toxic waste material from the colon using warmed filtered water',
   "Jacky provides guided meditation sessions one to one or in groups",
-  "Craniosacral Therapy is a gentle body work therapy which can be used to treat everyday stresses and strains as well as more chronic conditions making dynamic improvements",
+  "CranioSacral Therapy is a gentle body work therapy which can be used to treat everyday stresses and strains as well as more chronic conditions making dynamic improvements",
   "Jacky is a Reiki and Seichem Master and can provide therapeutic sessions of Reiki and Seichem healing to align your body’s energy",
   "A life coach’s role is to encourage a person in a range of personal or professional issues. The coach inspires the client to make positive and lasting changes in a solution focused approach to personal development, and they themselves are the facilitators of change",
   "As a Clinical Nutritional Therapist Jacky can help you to plan a new lifestyle. This will include healthy eating and hydration to support all of your nutritional needs",

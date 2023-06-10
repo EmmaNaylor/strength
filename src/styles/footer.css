@@ -61,11 +61,11 @@ a:active {
   .footer-text {
     font-size: 20px;
   }
+}
+@media only screen and (min-device-width: 1200px) {
   .disclaimer{
     padding-top: 60px;
     width: 70%;
     padding-left: 300px;
   }
-}
-@media only screen and (min-device-width: 1200px) {
 }

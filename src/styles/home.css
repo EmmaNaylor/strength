@@ -39,13 +39,28 @@ body {
   font-family: "Raleway", sans-serif !important;
 }
 
+.health-registered{
+  display: block;
+  width: 135px;
+  height: 34px; 
+  padding: 8px 0 0 0;
+  margin: auto;
+  background: url(https://healthcentre.org.uk/images/registered-ukhc.jpg) no-repeat; 
+  text-decoration: none; 
+  font-size: 10px; 
+  color: #fff; 
+  font-family:Arial, Helvetica, sans-serif;
+  line-height: 9px;
+  letter-spacing: 0;
+}
+
 .welcome-text {
   max-width: 95%;
   margin: auto;
   margin-top: 5%;
   margin-bottom: 5%;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .main-heading {
@@ -56,7 +71,7 @@ body {
 }
 
 .welcome {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   text-align: center;
   font-size: 26px;
   color: #036c7b;
@@ -64,10 +79,11 @@ body {
 
 .welcome-section {
   margin-top: 20px;
+  margin: auto;
 }
 
 .condition-section {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .offcanvas {
@@ -115,15 +131,11 @@ body {
 }
 
 @media screen and (min-device-width: 620px) {
+  .welcome-text {
+    font-size: 18px;
+  }
 }
 @media only screen and (min-device-width: 960px) {
-
-  .outer-home {
-    width: 85%;
-    margin: auto;
-    padding-left: 300px;
-    padding-top: 100px;
-  }
 
   .welcome-text {
     max-width: 80%;
@@ -135,8 +147,15 @@ body {
   } */
 }
 @media only screen and (min-device-width: 1200px) {
+
+  .outer-home {
+    width: 85%;
+    margin: auto;
+    padding-left: 300px;
+    padding-top: 100px;
+  }
+
   .welcome-text {
-    max-width: 60%;
     font-size: 20px;
   }
 
@@ -146,12 +165,11 @@ body {
   }
 
   .welcome {
-    margin-bottom: 25px;
-    font-size: 36px;
+    margin-bottom: 23px;
+    font-size: 30px;
   }
 
   .welcome-section {
-    width: 65%;
-    margin: auto;
+    max-width: 600px;
   }
 }

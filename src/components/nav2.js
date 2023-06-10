@@ -48,16 +48,16 @@ const Navigation = () => {
                       Tympa Hearing Treatment
                     </NavDropdown.Item>
                     <NavDropdown.Item href="/services/craniosacral_therapy" style={{color: 'white', backgroundColor: '#036c7b' }}>
-                      Craniosacral Therapy
+                      CranioSacral Therapy
                     </NavDropdown.Item>
                     <NavDropdown.Item href="/services/somato_emotional_release" style={{color: 'white', backgroundColor: '#036c7b' }}>
                       Somato Emotional Release
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/services/life_coaching" style={{color: 'white', backgroundColor: '#036c7b' }}>
-                      Life Coaching
+                    <NavDropdown.Item href="/services/health_coaching" style={{color: 'white', backgroundColor: '#036c7b' }}>
+                      Health Coaching
                     </NavDropdown.Item>
                     <NavDropdown.Item href="/services/nutritional_therapy" style={{color: 'white', backgroundColor: '#036c7b' }}>
-                      Nutritional Therapy
+                    Nutritional Assessment and Guidance
                     </NavDropdown.Item>
                     <NavDropdown.Item href="/services/meditation" style={{color: 'white', backgroundColor: '#036c7b' }}>
                       Meditation
@@ -68,6 +68,7 @@ const Navigation = () => {
                   </NavDropdown>
                   <Nav.Link href="/testimonials" style={{color: 'white' }}>Testimonials</Nav.Link>
                   <Nav.Link href="/contact" style={{color: 'white' }}>Contact Me</Nav.Link>
+                  <Nav.Link href="/terms" style={{color: 'white' }}>Terms and Conditions</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

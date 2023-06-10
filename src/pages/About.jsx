@@ -35,7 +35,7 @@ const About = () => {
         I can provide a range of therapeutic routes to wellness as an advocate for
         natural medicine and a holistic approach to our everyday wellness.
         Beginning with nutrition and our attitude towards food and hydration,
-        through exercise and movement, meditation, craniosacral therapy and reiki
+        through exercise and movement, meditation, CranioSacral therapy and reiki
         and seichem healing.
         </p>
         {/* <p className="about-text">

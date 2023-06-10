@@ -1,9 +1,11 @@
 import React from "react";
 import "../styles/testimonials.css";
+import strengthLogo from "../assets/strengthLogo.png";
 
 const Testimonials = () => {
   return (
     <div className="outer-review">
+            <img className="main-logo-treatments" src={strengthLogo} />
       <h3 className="review-heading">Testimonials</h3>
       <section className="review">
         <p className="review-text">
@@ -53,7 +55,7 @@ const Testimonials = () => {
       <section className="review">
         <p className="review-text">
           I have suffered with chronic back pain for the last 10 years, so decided
-          to see Jacky for Craniosacral Therapy. As I had heard how good it was.
+          to see Jacky for CranioSacral Therapy. As I had heard how good it was.
           The treatment itself is very relaxing and Jacky made me feel very at ease,
           but I was sceptical if it would help me or not. When I get home from work
           and sit down for awhile I always seize up and I'm in agony once I try to
@@ -77,7 +79,7 @@ const Testimonials = () => {
       <section className="review">
         <p className="review-text">
           Brilliant practitioner, and really lovely and friendly lady. I've been seeing Jacky
-          for a few months now for ongoing Craniosacral Therapy and emotional release to treat
+          for a few months now for ongoing CranioSacral Therapy and emotional release to treat
           my PTSD. Jacky has helped release so much deep tension and stress held in my body
           to address the somatic part of my condition and helped in my recovery. It's crazy 
           how pressure in your neck can release so much tightness in your hips which sports

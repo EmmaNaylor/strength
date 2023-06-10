@@ -4,7 +4,7 @@ import colonic from '../../assets/jacky-colonic.jpeg'
 import machine from '../../assets/colonic-machine.jpeg'
 import BookingButton from "../BookingButton";
 import "../../styles/treatments.css";
-import ColonicAccordion from "./VitaminAccordion";
+import ColonicAccordion from "./ColonicAccordion";
 
 const Colonic = () => {
   return (
@@ -92,6 +92,8 @@ const Colonic = () => {
           During this consultation the potential risks and aftercare
           recommendations are discussed.
         </p>
+
+        <div className="treatment-separator"></div>
         <h3 className="treatment-heading">Preparation for treatment</h3>
         <div className="condition-grid">
           <ul className="condition-list-solo">
@@ -112,6 +114,7 @@ const Colonic = () => {
             </li>
           </ul>
         </div>
+        <div className="treatment-separator"></div>
         <h3 className="treatment-heading">The Treatment</h3>
         <div className="condition-grid">
           <ul className="condition-list-solo">
@@ -129,17 +132,15 @@ const Colonic = () => {
               can be kept on for warmth and comfort
             </li>
             <li className="condition-item">
-              You will sit on the bed, then lay on the left side
+              You will sit on the bed, then lay on your left side
             </li>
             <li className="condition-item">
               The practitioner will explain as they insert the rectal tube for
-              the colonic hydrotherapy, as the person will be asked to breathe
+              the colonic hydrotherapy, as you will be asked to breathe
               slowly and deeply.
             </li>
             <li className="condition-item">
-              After a few minutes of the treatment commencing, you will be asked
-              to slowly move onto your back, whilst the practitioner holds the
-              tubing. Warm filtered water will then be introduced into the
+              Warm filtered water will then be introduced into the
               rectal tube which is at body temperature, to help loosen any
               impacted faeces and to encourage the body’s own natural
               peristaltic action.
@@ -149,10 +150,9 @@ const Colonic = () => {
               this will go straight into a waste conduit
             </li>
             <li className="condition-item">
-              After the treatment, the water will be stopped, you will be asked
-              again, to lay onto your left hand side. The tube is removed and
-              the person is encouraged to go to the toilet to eliminate any
-              waste matter or water left in the colon
+              After the treatment, the water will be stopped. The tube is removed and
+              you will be encouraged to go to the toilet to eliminate any
+              waste matter or water left in your colon
             </li>
           </ul>
         </div>

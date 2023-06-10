@@ -20,7 +20,7 @@ const Services = () => {
     "colonic_hydrotherapy",
     "craniosacral_therapy",
     "somato_emotional_release",
-    "life_coaching",
+    "health_coaching",
     "nutritional_therapy",
     "meditation",
     "reiki_seichem",
@@ -38,7 +38,7 @@ const Services = () => {
       {service === "tympa" && <Tympa />}
       {service === "craniosacral_therapy" && <Cranio />}
       {service === "somato_emotional_release" && <Somato />}
-      {service === "life_coaching" && <Coaching />}
+      {service === "health_coaching" && <Coaching />}
       {service === "nutritional_therapy" && <Nutrition />}
       {service === "meditation" && <Meditation />}
       {service === "reiki_seichem" && <Reiki />}
