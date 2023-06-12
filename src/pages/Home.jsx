@@ -4,6 +4,7 @@ import Conditions from "../components/Conditions";
 import ConditionsLargerScreen from "../components/ConditionsLargerScreen";
 import ConditionCarousel from "../components/ConditionCarousel";
 import AllTreatmentsWide from "../components/Treatments/AllTreatmentsWide";
+import FHT from "../assets/FHT-Logo.png"
 import "../styles/home.css";
 import styled from "styled-components";
 
@@ -53,6 +54,7 @@ const Home = () => {
       <div>
         <AllTreatmentsWide />
       </div>
+      <img className="main-logo-about" src={FHT} style={{marginTop: "40px"}} />
       {/* <ConditionCarousel /> */}
     </div>
   );

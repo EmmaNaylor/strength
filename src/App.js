@@ -16,6 +16,7 @@ import Services from "./pages/Services";
 import About from "./pages/About";
 import Testimonials from "./pages/Testimonials";
 import Contact from "./pages/Contact";
+import Book from "./pages/Book";
 import Terms from "./pages/Terms";
 import "./app.css";
 import styled from "styled-components";
@@ -54,6 +55,7 @@ function App() {
           <Route path="/services/:service" element={<Services />} />
           <Route path="/about" element={<About />} />
           <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/book" element={<Book />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/terms" element={<Terms />} />
         </Routes>

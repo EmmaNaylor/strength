@@ -6,7 +6,7 @@ import "../../styles/treatments.css";
 import meditation from "../../assets/meditation.jpg";
 import cranio from "../../assets/cranio_2.jpg";
 import reiki from "../../assets/reiki-1.jpg";
-import iv from "../../assets/lifecoach.jpg";
+import iv from "../../assets/vitamin-drip-crop.jpg";
 import colonic from "../../assets/colonic.jpg";
 import lifecoach from "../../assets/lifecoach-2.jpg";
 import nutrition from "../../assets/nutrition.jpg";
@@ -22,7 +22,7 @@ const titles = [
   'Health Coaching',
   'Nutritional Assessment and Guidance',
   'Somato Emotional Release',
-  "Tympa Hearing Treatment"
+  " Ear Examination and Microsuction"
 ];
 const descriptions = [
   'IV nutrient therapy is a safe and effective way of administering essential vitamins, minerals and amino acids to your body in a way which helps your body to improve absorption and the uptake of the nutrients',

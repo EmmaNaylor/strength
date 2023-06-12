@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const BookingButton = () => {
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate("/contact");
+    navigate("/book");
   };
   return (
     <div className="button-container">

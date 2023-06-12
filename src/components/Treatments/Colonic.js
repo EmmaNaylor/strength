@@ -1,6 +1,6 @@
 import React from "react";
 import strengthLogo from "../../assets/strengthLogo.png";
-import colonic from '../../assets/jacky-colonic.jpeg'
+import colonic from '../../assets/colonic-bed.JPG'
 import machine from '../../assets/colonic-machine.jpeg'
 import BookingButton from "../BookingButton";
 import "../../styles/treatments.css";

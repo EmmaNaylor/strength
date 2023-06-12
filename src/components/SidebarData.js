@@ -33,7 +33,7 @@ export const SidebarData = [
         icon: <MdOutlineMedication />,
         cName: 'sub-nav'
       },      {
-        title: 'Tympa Hearing Treatment',
+        title: 'Ear Examination and Microsuction',
         path: '/services/tympa',
         icon: <MdOutlineMedication />,
         cName: 'sub-nav'
@@ -79,6 +79,14 @@ export const SidebarData = [
     title: 'Testimonials',
     path: '/testimonials',
     icon: <IoIcons.IoMdPeople />
+  },
+  {
+    title: 'Book',
+    path: '/book',
+    icon: <FaIcons.FaEnvelopeOpenText />,
+
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
   },
   {
     title: 'Contact Me',

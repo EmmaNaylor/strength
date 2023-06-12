@@ -81,10 +81,6 @@ const Coaching = () => {
             Clarify, identify and create a vision with attainable measurable
             goals for a person’s needs
           </li>
-          <li className="condition-item">
-            Clarify, identify and create a vision with attainable measurable
-            goals for a person’s needs
-          </li>
         </ul>
       </div>
       <section className="treatment-section">

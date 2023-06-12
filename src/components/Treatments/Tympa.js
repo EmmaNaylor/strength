@@ -28,9 +28,9 @@ const Colonic = () => {
     <div className="outer-treatments">
       <img className="main-logo-treatments" src={strengthLogo} />
       <section className="treatment-section">
-        <h3 className="treatment-heading">Tympa Hearing Assessment and Treatment</h3>
+        <h3 className="treatment-heading">Ear Examination and Microsuction</h3>
         <p className="treatment-text">
-        During a Tympa appointment your clinician will be able to assess your ears, and if wax is present, gently remove
+        During your appointment your clinician will be able to assess your ears, and if wax is present, gently remove
 it with microsuction. Microsuction is the gold standard of wax removal and is considered safer than other methods
 such as irrigation.
         </p>
@@ -40,7 +40,7 @@ hearing loss. If you do have a hearing loss your clinician may refer you to an a
 However, in many cases, the initial problem could’ve simply been down to the presence of wax itself.
         </p>
       </section>
-      <div className="phone-image-container">
+      <div className="ear-phone-image-container">
           <img className="wide-treatment-image" src={ears1} />
       </div>
       <MobileWrapper>

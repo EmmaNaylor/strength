@@ -10,7 +10,7 @@ const About = () => {
       <img className="main-logo-about" src={strengthLogo} />
       <section className="about-section">
         <h3 className="welcome">About Me</h3>
-        <img className="jacky-image" src={jacky} />
+        {/* <img className="jacky-image" src={jacky} /> */}
         <p className="about-text">
         I am a healthcare professional with over 30 years of experience and I have been a holistic
         practitioner for over 20.

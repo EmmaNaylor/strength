@@ -4,6 +4,7 @@ import BookingButton from "../BookingButton";
 import "../../styles/treatments.css";
 import VitaminAccordion from "./VitaminAccordion";
 import IVAccordion from "./IVAccordion";
+import iv from '../../assets/vitamin-drip-crop.jpg'
 
 const IVTherapy = () => {
   return (
@@ -19,6 +20,9 @@ const IVTherapy = () => {
 the drip to reach the bodies tissues faster than by absorption of a supplement or food ingested
 into the stomach.
         </p>
+        <div className="phone-image-container-landscape">
+          <img className="wide-treatment-image" src={iv} />
+        </div>
       </section>
       <div className="treatment-separator"></div>
       <section className="treatment-section">

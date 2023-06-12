@@ -5,12 +5,14 @@ import "../../styles/treatments.css";
 import meditation from "../../assets/meditation.jpg";
 import cranio from "../../assets/jacky-cst-above.jpeg";
 import reiki from "../../assets/reiki-1.jpg";
-import iv from "../../assets/lifecoach.jpg";
-import colonic from "../../assets/jacky-colonic.jpeg";
+import iv from "../../assets/vitamin-drip-crop.jpg";
+import colonic from "../../assets/colonic-bed.JPG";
 import lifecoach from "../../assets/lifecoach-2.jpg";
 import nutrition from "../../assets/green-juice.jpeg";
 import somato from "../../assets/jacky-somato.jpeg";
 import tympa from "../../assets/ears2.jpeg";
+import dorn from "../../assets/dorn.jpg";
+
 
 const titles = [
   "IV Nutrient Therapy",
@@ -21,8 +23,10 @@ const titles = [
   "Health Coaching",
   "Nutritional Assessment and Guidance",
   "Somato Emotional Release",
-  "Tympa Hearing Treatment"
+  "Ear Examination and Microsuction",
+  "Dorn Method and Breuss Massage"
 ];
+
 const descriptions = [
   "IV nutrient therapy is a safe and effective way of administering essential vitamins, minerals and amino acids to your body in a way which helps your body to improve absorption and the uptake of the nutrients",
   "Colonic hydrotherapy is a gentle, safe and effective method to cleanse and remove accumulated toxic waste material from the colon using warmed filtered water",
@@ -32,7 +36,8 @@ const descriptions = [
   "A life coach’s role is to encourage a person in a range of personal or professional issues. The coach inspires the client to make positive and lasting changes in a solution focused approach to personal development, and they themselves are the facilitators of change",
   "As a Clinical Nutritional Therapist Jacky can help you to plan a new lifestyle. This will include healthy eating and hydration to support all of your nutritional needs",
   "In SER we discover and release the adverse effects of past distresses from mind and body and facilitate the realisation of their effects",
-  "The Tympa system allows you to perform: a high-definition digital otoscopy, microsuction wax removal, and carry out a hearing screening, all in a single 30-minute appointment"
+  "The Tympa system allows you to perform: a high-definition digital otoscopy, microsuction wax removal, and carry out a hearing screening, all in a single 30-minute appointment",
+  "The Dorn Method is a gentle spinal column and joint treatment designed to help alleviate back pain and headaches, caused by misaligned vertebrae or a difference in leg lengths. It is a manipulative treatment that can help joints and vertebrae slip back into their original position through dynamic movements. The Breuss Massage is a very gentle Spinal Massage that safely stretches, nourishes, aligns and energizes the spine, and combines perfectly with the Dorn Method"
 ];
 
 const images = [
@@ -44,7 +49,8 @@ const images = [
   lifecoach,
   nutrition,
   somato,
-  tympa
+  tympa,
+  dorn
 ];
 
 const AllTreatmentsWide = () => {
@@ -152,6 +158,17 @@ const AllTreatmentsWide = () => {
         <Card.Body>
           <Card.Title>{titles[7]}</Card.Title>
           <Card.Text>{descriptions[7]}</Card.Text>
+        </Card.Body>
+      </Card>
+      <Card>
+        <Card.Img
+          variant="top"
+          src={images[9]}
+          style={{ objectFit: "cover", height: "200px" }}
+        />
+        <Card.Body>
+          <Card.Title>{titles[9]}</Card.Title>
+          <Card.Text>{descriptions[9]}</Card.Text>
         </Card.Body>
       </Card>
     </div>

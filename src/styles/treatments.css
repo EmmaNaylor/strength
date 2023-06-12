@@ -122,6 +122,15 @@
   display: inline-block;
 }
 
+.ear-phone-image-container {
+  margin: auto;
+  margin-bottom: 15px;
+  height: 193.8px;
+  width: 243.5px;
+  padding: 10px;
+  display: inline-block;
+}
+
 /* original width 1075 x height 785 - 35%*/
 .phone-image-container-landscape {
   margin: auto;
@@ -314,6 +323,16 @@ li:last-child {
   margin-bottom: 15px;
   height: 539.74px;
   width: 483.75px;
+  padding: 10px;
+  display: inline-block;
+}
+
+/* original width 1080 x height 1205 - 35%*/
+.ear-phone-image-container {
+  margin: auto;
+  margin-bottom: 15px;
+  height: 387.6px;
+  width: 487px;
   padding: 10px;
   display: inline-block;
 }

@@ -45,7 +45,7 @@ const Navigation = () => {
                       Colonic Hydrotherapy
                   </NavDropdown.Item>
                   <NavDropdown.Item href="/services/tympa" style={{color: 'white', backgroundColor: '#036c7b' }}>
-                      Tympa Hearing Treatment
+                      Ear Examination and Microsuction
                     </NavDropdown.Item>
                     <NavDropdown.Item href="/services/craniosacral_therapy" style={{color: 'white', backgroundColor: '#036c7b' }}>
                       CranioSacral Therapy
@@ -67,6 +67,7 @@ const Navigation = () => {
                     </NavDropdown.Item>
                   </NavDropdown>
                   <Nav.Link href="/testimonials" style={{color: 'white' }}>Testimonials</Nav.Link>
+                  <Nav.Link href="/book" style={{color: 'white' }}>Book</Nav.Link>
                   <Nav.Link href="/contact" style={{color: 'white' }}>Contact Me</Nav.Link>
                   <Nav.Link href="/terms" style={{color: 'white' }}>Terms and Conditions</Nav.Link>
                 </Nav>
